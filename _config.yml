@@ -2,10 +2,10 @@
 title: Dash
 email: carly.strasser@ucop.edu
 description: "Information about the Dash project"
-baseurl: "http://strasser.github.io/dash"
+baseurl: "http://CDLUC3.github.io/dash"
 url: "http://dash.ucop.edu"
-twitter_username: UC3CDL
-github_username:  CDLUC3
+twitter_username: carlystrasser
+github_username:  strasser
 
 # Build settings
 markdown: kramdown
