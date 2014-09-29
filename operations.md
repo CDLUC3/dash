@@ -4,7 +4,7 @@ title: Operations Documentation
 permalink: /operations/
 ---
 
-* [Dash architecture (png)](https://CDLUC3.github.io/dash/dash-architecture-overview)
+* [Dash architecture (png)](https://CDLUC3.github.io/dash/architecture-overview)
 * [Data schema (png)](https://CDLUC3.github.io/dash/data-schema)
 * [Infrastructure](https://CDLUC3.github.io/dash/infrastructure)
 * [Authentication](https://CDLUC3.github.io/dash/authentication)
