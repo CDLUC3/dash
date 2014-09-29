@@ -1,57 +1,18 @@
 ---
 layout: default
-title: Home
 ---
 
- <img src="https://raw.githubusercontent.com/CDLUC3/dashdocs/master/Dash_generic.png" alt="Dash log" style="width:304px">
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">    
+      
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-
-<h2>Meetings & Events </h2>
-<ul>
-<li> <a href="http://cdluc3.github.io/UC-code-camp/"> UC Code Camp, 27-28 Aug 2014</a>. (<a href="http://datapub.cdlib.org/2014/09/03/the-first-uc-libraries-code-camp/">Summary on Data Pub Blog</a>)</li>
-<li> [Dash campus partners meeting, 25 Sept 2014](https://github.com/CDLUC3/dash/wiki/Dash-Meeting-25-Sept-2014). ([Summary on Data Pub Blog](http://t.co/9ISWv8vlXr))</li>
-</ul>
-
-<h2>Dash Outreach Materials</h2> 
-
-<ul>
-	<li><a href="https://raw.githubusercontent.com/CDLUC3/dashdocs/master/Dash_generic.png">UC Dash Logo (png)</a></li>
-</ul>
-
-<h2>Campus Implementation Documents</h2>
-
-* [Implementation tasks](Tasks-for-Campuses-to-Implement-Dash)
-* [Generic FAQ text](Generic-FAQ-for-Dash)
-* [Generic About text](Generic-About-for-Dash)
-* [Agreements](agreements)
-* [Policies](policies)
-* [User Authorization for Dash](user-authorization-for-dash)
-
-<h2>Other Links & Documents </h2>
-
-* [Dash V1 Production Release Criteria](https://docs.google.com/document/d/1u00NWxien-eZ5uvXpCIpSMWb1SO_5RLkh2l2IaTLIsQ/edit#heading=h.mw366im6tj2j) (google doc)
-* [Dash Manual Functional Test Scripts](https://docs.google.com/document/d/16qG6OycEg_6dPP8TR-1h9pMwQG_HOSEeS33D4Xyi3ZY/edit) (google doc)
-* [DataUp-to-Dash Work Plan](https://docs.google.com/document/d/1r7tKaINZqSNSTQ5KfjYJqtOh-JnCrMwOhEoXcWWe6Vs/edit) (google doc)
-* [DataUp-to-Dash Work Plan Spreadsheet](https://docs.google.com/spreadsheets/d/1zA8YBOvSvAYd66mqnbg_eMrt6oAdi_LFvCIBGzHZqIw/edit#gid=0) (google spreadsheet)
-* [User-facing Dash pages diagram](https://github.com/CDLUC3/dashdocs/blob/master/dash-pages-user-facing.pdf?raw=true) (PDF)
-
-</h2>Operations Documents</h2>
-
-* [Dash architecture (png)](Dash-architecture-overview)
-* [Data schema (png)](https://github.com/CDLUC3/dash/wiki/Operations:-Data-schema-(png))
-* [Infrastructure](https://github.com/CDLUC3/dash/wiki/Operations:-Infrastructure)
-* [Authentication](https://github.com/CDLUC3/dash/wiki/Operations:-Authentication)
-* [User Authorization](https://github.com/CDLUC3/dash/wiki/User-Authorization-for-Dash)
-* [XTF installation](https://github.com/CDLUC3/dash/wiki/Operations:-XTF-Installation)
-* [Rails development setup](https://github.com/CDLUC3/dash/wiki/Operations:-Rails-(dash-ingest)-development-setup)
-* [Rights, ownership, and licenses](https://github.com/CDLUC3/dash/wiki/Operations:-Rights,-Ownership,-Licenses)
-* [Procedure for adding a campus to the CDL Dash server](https://github.com/CDLUC3/dash/wiki/Procedure-to-add-a-campus-to-the-CDL-Dash-server)
-
-<h2>Code </h2>
-* GitHub repositories:
-  * [dash-ingest](https://github.com/CDLUC3/dash-ingest)
-  * [dash-xtf](https://github.com/CDLUC3/dash-xtf)
-  * [dash-harvester](https://github.com/CDLUC3/dash-harvester)
-* GitHub repositories for [UCSF DataShare application](http://datashare.ucsf.edu)
-  * [datashare-ingest](https://github.com/CDLUC3/datashare-ingest)
-  * [datashare main](https://github.com/CDLUC3/datashare)
+      <div class="entry">
+        {{ post.content | truncatewords:40}}
+      </div>
+      
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
