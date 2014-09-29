@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adding a campus to CDL Dash
-permalink: /adding-campus/
+permalink: /procedure-to-add-campus/
 ---
 
 This procedure assumes that the campus has already set up DNS entries and provided certificates per the instructions for campus integration.

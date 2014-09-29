@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Policies
-permalink: /policies/
+permalink: /Policies/
 ---
 
 We have drafted a potential set of policies that will govern Dash. This document is for discussion and is by no means a final document - your input is critical to implementing Dash. 

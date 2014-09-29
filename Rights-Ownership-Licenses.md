@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Operations: Rights and Ownership
-permalink: /rights-ownership-licenses/
+permalink: /Rights-Ownership-Licenses/
 ---
 
 Information about rights, ownership and licenses for datasets
