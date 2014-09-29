@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Operations: XTF Installation
+title: XTF Installation
 permalink: /XTF-installation/
 ---
 

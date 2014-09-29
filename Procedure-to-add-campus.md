@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Adding a campus to CDL Dash
+title: Procedure to add campus
 permalink: /procedure-to-add-campus/
 ---
 
