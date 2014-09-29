@@ -1,11 +1,11 @@
 # Site settings
-title: UC Code Camp
+title: Dash
 email: carly.strasser@ucop.edu
-description: "Information about the UC Libraries Code Camp, Oakland CA August 2014"
-baseurl: "http://strasser.github.io/UC-code-camp"
-url: "http://www.cdlib.org"
-twitter_username: carlystrasser
-github_username:  strasser
+description: "Information about the Dash project"
+baseurl: "http://strasser.github.io/dash"
+url: "http://dash.ucop.edu"
+twitter_username: UC3CDL
+github_username:  CDLUC3
 
 # Build settings
 markdown: kramdown
