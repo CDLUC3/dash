@@ -1,0 +1,12 @@
+# Site settings
+title: UC Code Camp
+email: carly.strasser@ucop.edu
+description: "Information about the UC Libraries Code Camp, Oakland CA August 2014"
+baseurl: "http://strasser.github.io/UC-code-camp"
+url: "http://www.cdlib.org"
+twitter_username: carlystrasser
+github_username:  strasser
+
+# Build settings
+markdown: kramdown
+permalink: pretty
