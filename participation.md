@@ -4,6 +4,14 @@ title: Participation
 permalink: /participation/
 ---
 
+
+### Meetings & Events
+
+<ul>
+<li> <a href="https://github.com/CDLUC3/dash/wiki/Dash-Meeting-25-Sept-2014">Dash campus partners meeting, 25 Sept 2014</a>. (<a href="http://t.co/9ISWv8vlXr">Summary on Data Pub Blog</a>)</li>
+<li> <a href="http://cdluc3.github.io/UC-code-camp/"> UC Code Camp, 27-28 Aug 2014</a>. (<a href="http://datapub.cdlib.org/2014/09/03/the-first-uc-libraries-code-camp/">Summary on Data Pub Blog</a>)</li>
+</ul>
+
 ### Campus Implementation Documents
 
 <ul>
