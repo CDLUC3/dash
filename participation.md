@@ -14,7 +14,7 @@ permalink: /participation/
 <li><a href="http://CDLUC3.github.io/dash/user-authorization">User Authorization for Dash</a></li>
 </ul>
 
-<h2>Dash Outreach Materials</h2> 
+<h3>Dash Outreach Materials</h3> 
 
 <ul>
 	<li><a href="https://raw.githubusercontent.com/CDLUC3/dashdocs/master/Dash_generic.png">UC Dash Logo (png)</a></li>

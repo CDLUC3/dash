@@ -1,3 +1,8 @@
+---
+layout: page
+title: Campus status
+permalink: /campus-status/
+---
 | **Campus** | **Status** |
 | Berkeley| [[dash.berkeley.edu|http://dash.berkeley.edu]] |
 | Davis | In discussion | 

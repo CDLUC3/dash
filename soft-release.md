@@ -1,3 +1,9 @@
+---
+layout: page
+title: Soft Release Instructions
+permalink: /soft-release/
+---
+
 **What’s a soft release?**
 
 We want to be sure Dash is running properly before we promote it widely and it is used extensively by the researcher community. A "soft release" strategy means the Dash application is available to anyone but we don't encourage everyone to use it yet. Help us get Dash ready for wide release with much fanfare by testing. This is planned for November 1st.
