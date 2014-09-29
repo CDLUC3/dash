@@ -1,3 +1,9 @@
+---
+layout: page
+title: Generic About for Dash
+permalink: /generic-about/
+---
+
 ### Instructions:
 * Download ([markdown](https://github.com/CDLUC3/dashdocs/blob/master/About.md) or [Word](https://github.com/CDLUC3/dashdocs/blob/master/About.docx?raw=true) version) this document and edit in your favorite word processing software. 
 * Most sections can be updated/revised, and new sections may be added as you see fit. 

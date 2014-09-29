@@ -1,3 +1,9 @@
+---
+layout: page
+title: Generic FAQ
+permalink: /generic-faq/
+---
+
 ## Instructions:
 * Download ([markdown](https://github.com/CDLUC3/dashdocs/blob/master/FAQ.md) or [Word](https://github.com/CDLUC3/dashdocs/blob/master/FAQ.docx?raw=true) version) this document and edit in your favorite word processing software. 
 * Most questions can be updated/revised, and new questions may be added as you see fit. 
