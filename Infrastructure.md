@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Operations: Infrastructure
+title: Infrastructure
 permalink: /infrastructure/
 ---
 

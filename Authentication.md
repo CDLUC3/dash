@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Operations: Authentication
+title: Authentication
 permalink: /authentication/
 ---
 
