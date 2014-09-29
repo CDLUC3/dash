@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Architecture Overview
-permalink: /dash-architecture-overview/
+permalink: /architecture-overview/
 ---
 
 

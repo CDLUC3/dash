@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Operations: Rights and Ownership
+title: Rights, Ownership, and Licenses
 permalink: /Rights-Ownership-Licenses/
 ---
 
