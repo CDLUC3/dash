@@ -1,3 +1,9 @@
+---
+layout: page
+title: Operations: Infrastructure
+permalink: /infrastructure/
+---
+
 ## Overview
 
 Dash is a UC-specific iteration of the Datashare application. It was renamed to avoid confusion with several other initiatives with the same name. The design goal for the infrastructure is to provide a campus-specific URL for each UC campus, but run only one instance of the application behind the scenes. To accomplish this, it was necessary to configure DNS, Shibboleth, and a series of Apache virtual hosts. Dash runs on a single VM, with one instance in development, one in staging, and one in production.

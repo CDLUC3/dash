@@ -1,3 +1,9 @@
+---
+layout: page
+title: Operations: Authentication
+permalink: /authentication/
+---
+
 ## Current Scenario
 
 Currently, the determination as to which Dash campus instance you land on is handled by **Apache**.  Apache detects any current sessions and if one is active, based on the session header information, directs the user to the proper dash campus instance.  If a session is not active, then the user selects their campus from the Discovery page and is routed to the proper IdP for authentication.  Once authenticated, Apache directs to the proper campus.

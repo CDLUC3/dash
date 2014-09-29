@@ -1,3 +1,9 @@
+---
+layout: page
+title: Operations: Rights and Ownership
+permalink: /rights-ownership-licenses/
+---
+
 Information about rights, ownership and licenses for datasets
 
 ## Ownership of research data

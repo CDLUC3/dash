@@ -1,3 +1,9 @@
+---
+layout: page
+title: User Authorization
+permalink: /user-authorization/
+---
+
 **Note: This information is subject to change given our ongoing discussions about handling authentication in Dash. See [Operations: Authentication](https://github.com/CDLUC3/dash/wiki/Operations:-Authentication).**
 
 By default, the Dash application will allow any authenticated user to deposit content in the repository for their home campus. The home campus is determined by the Shibboleth Identity Provider (IdP) that validates the user's credentials. If someone is authenticated by the UCLA IdP, then they can deposit datasets in the UCLA instance of Dash. If they are authenticated by the Berkeley IdP, then they can deposit content in the Berkeley repository. Someone authenticated by the UCLA IdP cannot store content in any other campus repository. They can, however, search content at any campus.

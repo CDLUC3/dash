@@ -1,3 +1,9 @@
+---
+layout: page
+title: Policies
+permalink: /policies/
+---
+
 We have drafted a potential set of policies that will govern Dash. This document is for discussion and is by no means a final document - your input is critical to implementing Dash. 
 
 **Please comment directly on the [Google Doc, _Dash Policies Draft_](https://docs.google.com/document/d/1k-2T-p9q9cGI0LKztw7Wkj6lO4kM8z3pGu-nPIT_lm8/edit?usp=sharing).**

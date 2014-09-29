@@ -1,3 +1,9 @@
+---
+layout: page
+title: Adding a campus to CDL Dash
+permalink: /adding-campus/
+---
+
 This procedure assumes that the campus has already set up DNS entries and provided certificates per the instructions for campus integration.
 
 1. Install the campus-provided certificates under /dash/ssl/[certificate expiration date] for each environment. The date should be in the form YYYY-MM-DD.

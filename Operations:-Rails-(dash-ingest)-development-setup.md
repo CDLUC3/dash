@@ -1,3 +1,9 @@
+---
+layout: page
+title: Operations: Rails Setup
+permalink: /rails-setup/
+---
+
 These are the instructions to bring up the Rails environment for the dash-ingest codeline on your local machine.
 
 ### Software:

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Operations: XTF Installation
+permalink: /XTF-installation/
+---
+
 ### Follow these steps to clone Dash XTF repository to your local environment
 
 1. Download XTF Tutorial package: [http://xtf.cdlib.org/download/](http://xtf.cdlib.org/download/)

@@ -1,3 +1,9 @@
+---
+layout: page
+title: Campus Tasks
+permalink: /campus-tasks/
+---
+
 ## Certificates
 1. Decide on your preferred URL for Dash. dash.campus.edu would be consistent with other campuses, but the final decision is yours.
 2. Request CNAMES for development, staging, and production URLs. If you use dash.campus.edu for production, then things should look something like this:
