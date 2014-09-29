@@ -4,8 +4,7 @@ title: Participation
 permalink: /participation/
 ---
 
-<h2>Campus Implementation Documents</h2>
-
+<h3>Campus Implementation Documents</h3>
 <ul>
   <li><a href="">Implementation tasks</a></li>
 <li><a href="">Generic FAQ text</a></li>

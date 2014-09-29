@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Operations
+title: Operations Documentation
 permalink: /operations/
 ---
-
-## Operations Documents
 
 * [Dash architecture (png)](Dash-architecture-overview)
 * [Data schema (png)](https://github.com/CDLUC3/dash/wiki/Operations:-Data-schema-(png))
