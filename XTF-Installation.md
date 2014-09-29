@@ -1,7 +1,7 @@
 ---
 layout: page
 title: XTF Installation
-permalink: /XTF-installation/
+permalink: /XTF-Installation/
 ---
 
 ### Follow these steps to clone Dash XTF repository to your local environment
@@ -17,6 +17,7 @@ permalink: /XTF-installation/
     ````
 
 ### Add exclusions to git index
+
 1. Add these lines to xtfWorkshop/tomcat/webapps/dash-xtf/.git/info/exclude:
 
    ````
