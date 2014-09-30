@@ -6,10 +6,10 @@ permalink: /agreements/
 
 ## Contents
 
-* [Rationale](agreements#Rationale)
-* [Data submission agreement](agreements#data-submission-agreement)
-* [Data use agreement](agreements#data-use-agreement)
-* [Policies and terms of use](agreements#policies-and-terms-of-use)
+* [Rationale](http://cdluc3.github.io/dash/agreements#Rationale)
+* [Data submission agreement](http://cdluc3.github.io/dash/agreements#data-submission-agreement)
+* [Data use agreement](http://cdluc3.github.io/dash/agreements#data-use-agreement)
+* [Policies and terms of use](http://cdluc3.github.io/dash/agreements#policies-and-terms-of-use)
 
 
 ## Rationale
@@ -44,6 +44,6 @@ Because all data in Dash will be available under a CC-BY license, no data use ag
 
 ## Policies and terms of use
 
-Dash will use the generic [CDL Terms of Use](http://www.cdlib.org/about/terms.html). With regard to other policies, we are currently developing text about data takedown policies, content guidelines, and other information that will appear on a "Policies" page of the Dash website. See [policies](policies).
+Dash will use the generic [CDL Terms of Use](http://www.cdlib.org/about/terms.html). With regard to other policies, we are currently developing text about data takedown policies, content guidelines, and other information that will appear on a "Policies" page of the Dash website. See [policies](http://cdluc3.github.io/dash/policies).
 
 
