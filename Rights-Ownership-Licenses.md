@@ -28,11 +28,11 @@ While UCOP recommends using CC-BY, we already have a dataset with a CC0 license 
 1. Remove the rights checkbox from /app/views/records/review.html.erb
 1. Add the rights XML field to the output of /apps/models/record.rb that is submitted to Merritt as mrt-datacite.xml. It should look something like this:
 
-<pre><code> 
-   <rightsList>
-   <rights rightsURI=” https://creativecommons.org/licenses/by/4.0/”>[Approved wording for CC-BY submissions]</rights>
-   </rightsList>
-</code></pre>
+    ````
+        <rightsList>
+         <rights rightsURI=” https://creativecommons.org/licenses/by/4.0/”>[Approved wording for CC-BY submissions]</rights>
+         </rightsList>
+    ````
 
 ## Changes to Dash XTF
 1. Add a static page about rights. Currently, most static pages are in XTF. We plan to move static pages to Rails, but I’m not sure of the schedule.
