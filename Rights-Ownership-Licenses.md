@@ -30,8 +30,8 @@ While UCOP recommends using CC-BY, we already have a dataset with a CC0 license 
 
     ````
         <rightsList>
-         <rights rightsURI=” https://creativecommons.org/licenses/by/4.0/”>[Approved wording for CC-BY submissions]</rights>
-         </rightsList>
+        <rights rightsURI=” https://creativecommons.org/licenses/by/4.0/”>[Approved wording for CC-BY submissions]</rights>
+        </rightsList>
     ````
 
 ## Changes to Dash XTF
