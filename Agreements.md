@@ -6,10 +6,10 @@ permalink: /agreements/
 
 ## Contents
 
-* [Rationale](http://cdluc3.github.io/dash/agreements#Rationale)
-* [Data submission agreement](http://cdluc3.github.io/dash/agreements#data-submission-agreement)
-* [Data use agreement](http://cdluc3.github.io/dash/agreements#data-use-agreement)
-* [Policies and terms of use](http://cdluc3.github.io/dash/agreements#policies-and-terms-of-use)
+* [Rationale](agreements#Rationale)
+* [Data submission agreement](agreements#data-submission-agreement)
+* [Data use agreement](agreements#data-use-agreement)
+* [Policies and terms of use](agreements#policies-and-terms-of-use)
 
 
 ## Rationale
@@ -33,7 +33,7 @@ When the user gets to the final data submission (i.e., "Review and Submit") scre
 This text will appear next to the "Submit to Dash" button, along with a checkbox. The checkbox must be clicked in order to successfully submit to Dash. Otherwise, the user will receive an error message.
 
 ### Submission text
-> By clicking this checkbox, I certify that I agree to the Dash [Terms of use](http://www.cdlib.org/about/terms.html). I understand that by submitting data to Dash, I am agreeing to release it under the terms of the [Creative Commons Attribution 4.0 (CC-BY) license](https://creativecommons.org/licenses/by/4.0/) license. I warrant that sharing my submission under these terms does not violate any privacy, copyright, or other rights of any person or third party. For more information on why Dash uses CC-BY, see our [policies page](http://dash.ucop.edu/policies). 
+> By clicking this checkbox, I certify that I agree to the Dash [Terms of use](http://www.cdlib.org/about/terms.html). I understand that by submitting data to Dash, I am agreeing to release it under the terms of the [Creative Commons Attribution 4.0 (CC-BY) license](https://creativecommons.org/licenses/by/4.0/) license. I warrant that sharing my submission under these terms does not violate any privacy, copyright, or other rights of any person or third party. For more information on why Dash uses CC-BY, see our [policies page](https://dash.ucop.edu/xtf/search?smode=policiesPage). 
 
 _Note: The Dash policies page is still under construction._
 
