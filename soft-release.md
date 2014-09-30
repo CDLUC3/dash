@@ -25,9 +25,11 @@ We want to be sure Dash is running properly before we promote it widely and it i
 
 ### URLs for testing
 
-| **Campus** | **Staging (test here!)** | **Production** |
-| UC Berkeley | [dash-stg.berkeley.edu](http://dash-stg.berkeley.edu) | [dash.berkeley.edu](http://dash.berkeley.edu) | 
- | UC Irvine | [dash-stg.lib.uci.edu](http://dash-stg.lib.uci.edu) | [dash.lib.uci.edu](http://dash.lib.uci.edu)  | 
- | UCLA | [dash-ucla-stg.cdlib.org](http://dash-ucla-stg.cdlib.org) | [dash.ucla.edu](http://dash.ucla.edu) | 
- | UC Merced | [dash-stg.ucmerced.edu](http://dash-stg.ucmerced.edu) | [dash.ucmerced.edu](http://dash.ucmerced.edu)  | 
+<table>										
+<tr>	<td> 	**Campus** 	</td>	<td> 	 **Staging (test here!)** 	</td>	<td> 	 **Production** 	</td>	</tr>
+<tr>	<td> 	 UC Berkeley 	</td>	<td> 	 [dash-stg.berkeley.edu](http://dash-stg.berkeley.edu) 	</td>	<td> 	 [dash.berkeley.edu](http://dash.berkeley.edu) 	</td>	</tr>
+<tr>	<td> 	 UC Irvine 	</td>	<td> 	 [dash-stg.lib.uci.edu](http://dash-stg.lib.uci.edu) 	</td>	<td> 	 [dash.lib.uci.edu](http://dash.lib.uci.edu)  	</td>	</tr>
+<tr>	<td> 	 UCLA 	</td>	<td> 	 [dash-ucla-stg.cdlib.org](http://dash-ucla-stg.cdlib.org) 	</td>	<td> 	 [dash.ucla.edu](http://dash.ucla.edu) 	</td>	</tr>
+<tr>	<td> 	 UC Merced 	</td>	<td> 	 [dash-stg.ucmerced.edu](http://dash-stg.ucmerced.edu) 	</td>	<td> 	 [dash.ucmerced.edu](http://dash.ucmerced.edu)  	</td>	</tr>
+</table>										
 
