@@ -43,7 +43,7 @@ Please be aware that your campus may have rules and regulations about websites t
 1. Footer: Tell us what phrase and link you would like in the brackets of this footer sentence: Dash is a collaborative project between [XX - e.g., the UCLA library] and the UC Curation Center. 
 2. Contact us: Provide us with an email address for who/where the “contact us” form should go.
 3. FAQ: Create a campus-specific version. Start with [this text](http://cdluc3.github.io/dash/generic-faq) and amend as necessary.
-4. About: Create a campus-specific version. Start with [this text](dash/generic-about) and amend as necessary.
+4. About: Create a campus-specific version. Start with [this text](http://cdluc3.github.io/dash/generic-about) and amend as necessary.
 
 ## Seed Datasets
 Identify few datasets that can serve as "seed" datasets for your instance of Dash. Share these datasets with us, and we will put them in the Dash collection before your instance goes live. If this is not done, users will log into the Dash system and see no datasets from your institution. 
