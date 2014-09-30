@@ -38,7 +38,8 @@ permalink: /dash-meeting-ucla/
   </tr>
     <tr>
     <td>11:45-12:15</td>
-    <td>How campuses can participate: <a href="https://docs.google.com/presentation/d/1ulpZVstkjtmOyjTzk4vlaeJwSLJ8bR1tMzDKWEWxyM0/edit?usp=sharing">Customizations</a> & <a href="https://github.com/CDLUC3/dash/wiki/Contributing-to-Dash-Development">Development</a></td> 
+   	<td> </td>
+   <td>How campuses can participate: <a href="https://docs.google.com/presentation/d/1ulpZVstkjtmOyjTzk4vlaeJwSLJ8bR1tMzDKWEWxyM0/edit?usp=sharing">Customizations</a> & <a href="https://github.com/CDLUC3/dash/wiki/Contributing-to-Dash-Development">Development</a></td> 
   </tr>
   <tr>
   	<td>12:15-12:30</td>
