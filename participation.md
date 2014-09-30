@@ -19,7 +19,6 @@ permalink: /participation/
 <li><a href="http://CDLUC3.github.io/dash/generic-faq">Generic FAQ text</a></li>
 <li><a href="http://CDLUC3.github.io/dash/generic-about">Generic About text</a></li>
 <li><a href="http://CDLUC3.github.io/dash/agreements">Agreements</a></li>
-<li><a href="http://CDLUC3.github.io/dash/policies">Policies</a></li>
 <li><a href="http://CDLUC3.github.io/dash/user-authorization">User Authorization for Dash</a></li>
 </ul>
 
