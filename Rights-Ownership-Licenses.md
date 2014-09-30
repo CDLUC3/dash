@@ -7,9 +7,7 @@ permalink: /Rights-Ownership-Licenses/
 Information about rights, ownership and licenses for datasets
 
 ## Ownership of research data
-The Academic Personnel Policy (APM) 020 states: "Notebooks and other original records of the research are the property of the University.” (II. 5, p.3)
-
-which the university interprets as meaning that research data are owned by the university. UCOP General Counsel currently recommends a CC-BY 4.0 license, requiring attribution, but they continue to study the issue. We should design Dash to be flexible in both accepting and displaying metadata for datasets with differing licenses.
+The Academic Personnel Policy (APM) 020 states: "Notebooks and other original records of the research are the property of the University.” (II. 5, p.3), which the university interprets as meaning that research data are owned by the university. UCOP General Counsel currently recommends a CC-BY 4.0 license, requiring attribution, but they continue to study the issue. We should design Dash to be flexible in both accepting and displaying metadata for datasets with differing licenses.
 
 There are several places in Dash where this matters:
 
