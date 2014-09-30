@@ -22,4 +22,4 @@ permalink: /operations/
 <li><a href="https://docs.google.com/document/d/1r7tKaINZqSNSTQ5KfjYJqtOh-JnCrMwOhEoXcWWe6Vs/edit">DataUp-to-Dash Work Plan</a> (google doc)</li>
 </ul>
 
-## [Code repositories](http://cdluc3.github.io/code-repositories)
+## [Code repositories](http://CDLUC3.github.io/code-repositories)
