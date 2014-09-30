@@ -25,11 +25,11 @@ We want to be sure Dash is running properly before we promote it widely and it i
 
 ### URLs for testing
 
-<table border="1">														
-<tr>	<td> 	Campus 	</td>	<td> 		 Staging (test here!) 		</td>	<td> 		Production 		</td>	</tr>
-<tr>	<td> 	 UC Berkeley 	</td>	<td> 	<a href="	http://dash-stg.berkeley.edu">dash-stg.berkeley.edu	</a>	</td>	<td> 	<a href="	http://dash.berkeley.edu">dash.berkeley.edu	</a>	</td>	</tr>
-<tr>	<td> 	 UC Irvine 	</td>	<td> 	<a href="	http://dash-stg.lib.uci.edu">dash-stg.lib.uci.edu	</a>	</td>	<td> 	<a href="	http://dash.lib.uci.edu">dash.lib.uci.edu	</a>	</td>	</tr>
-<tr>	<td> 	 UCLA 	</td>	<td> 	<a href="	http://dash-ucla-stg.cdlib.org">dash-stg-ucla.cdlib.org	</a>	</td>	<td> 	<a href="	http://dash-ucla.cdlib.org">dash-ucla.cdlib.org	</a>	</td>	</tr>
-<tr>	<td> 	 UC Merced 	</td>	<td> 	<a href="	http://dash-stg.ucmerced.edu">dash-stg.ucmerced.edu	</a>	</td>	<td> 	<a href="	http://dash.ucmerced.edu">dash.ucmerced.edu	</a>	</td>	</tr>
-</table>														
+<table border="1">																	
+<tr>	<td> 	Campus	</td>	<td> 	|	</td>	<td> 		Staging (test here!)		</td>	<td> 		Production		</td>	</tr>
+<tr>	<td> 	 UC Berkeley 	</td>	<td> 	|	</td>	<td> 	<a href="	http://dash-stg.berkeley.edu">dash-stg.berkeley.edu	</a>	</td>	<td> 	<a href="	http://dash.berkeley.edu">dash.berkeley.edu	</a>	</td>	</tr>
+<tr>	<td> 	 UC Irvine 	</td>	<td> 	|	</td>	<td> 	<a href="	http://dash-stg.lib.uci.edu">dash-stg.lib.uci.edu	</a>	</td>	<td> 	<a href="	http://dash.lib.uci.edu">dash.lib.uci.edu	</a>	</td>	</tr>
+<tr>	<td> 	 UCLA 	</td>	<td> 	|	</td>	<td> 	<a href="	http://dash-ucla-stg.cdlib.org">dash-stg-ucla.cdlib.org	</a>	</td>	<td> 	<a href="	http://dash-ucla.cdlib.org">dash-ucla.cdlib.org	</a>	</td>	</tr>
+<tr>	<td> 	 UC Merced 	</td>	<td> 	|	</td>	<td> 	<a href="	http://dash-stg.ucmerced.edu">dash-stg.ucmerced.edu	</a>	</td>	<td> 	<a href="	http://dash.ucmerced.edu">dash.ucmerced.edu	</a>	</td>	</tr>
+</table>																									
 
