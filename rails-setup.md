@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Operations: Rails Setup
+title: Rails Setup
 permalink: /rails-setup/
 ---
 
