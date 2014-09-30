@@ -36,6 +36,6 @@ Because all data in Dash will be available under a CC-BY license, no data use ag
 
 ## Policies and terms of use
 
-Dash will use the generic [CDL Terms of Use](http://www.cdlib.org/about/terms.html). With regard to other policies, we are currently developing text about data takedown policies, content guidelines, and other information that will appear on a "Policies" page of the Dash website. See [policies](http://cdluc3.github.io/dash/policies).
+Dash will use the generic [CDL Terms of Use](http://www.cdlib.org/about/terms.html). With regard to other policies, we are currently developing text about data takedown policies, content guidelines, and other information that will appear on a [Policies page](https://dash.ucop.edu/xtf/search?smode=policiesPage) on the Dash website.
 
 
