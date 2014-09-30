@@ -25,11 +25,11 @@ We want to be sure Dash is running properly before we promote it widely and it i
 
 ### URLs for testing
 
-<table>										
-<tr>	<td> 	**Campus** 	</td>	<td> 	 **Staging (test here!)** 	</td>	<td> 	 **Production** 	</td>	</tr>
-<tr>	<td> 	 UC Berkeley 	</td>	<td> 	 [dash-stg.berkeley.edu](http://dash-stg.berkeley.edu) 	</td>	<td> 	 [dash.berkeley.edu](http://dash.berkeley.edu) 	</td>	</tr>
-<tr>	<td> 	 UC Irvine 	</td>	<td> 	 [dash-stg.lib.uci.edu](http://dash-stg.lib.uci.edu) 	</td>	<td> 	 [dash.lib.uci.edu](http://dash.lib.uci.edu)  	</td>	</tr>
-<tr>	<td> 	 UCLA 	</td>	<td> 	 [dash-ucla-stg.cdlib.org](http://dash-ucla-stg.cdlib.org) 	</td>	<td> 	 [dash.ucla.edu](http://dash.ucla.edu) 	</td>	</tr>
-<tr>	<td> 	 UC Merced 	</td>	<td> 	 [dash-stg.ucmerced.edu](http://dash-stg.ucmerced.edu) 	</td>	<td> 	 [dash.ucmerced.edu](http://dash.ucmerced.edu)  	</td>	</tr>
-</table>										
+<table>														
+<tr>	<td> 	Campus 	</td>	<td> 		 Staging (test here!) 		</td>	<td> 		Production 		</td>	</tr>
+<tr>	<td> 	 UC Berkeley 	</td>	<td> 	<a href="	http://dash-stg.berkeley.edu">dash-stg.berkeley.edu	</a>	</td>	<td> 	<a href="	http://dash.berkeley.edu">dash.berkeley.edu	</a>	</td>	</tr>
+<tr>	<td> 	 UC Irvine 	</td>	<td> 	<a href="	http://dash-stg.lib.uci.edu">dash-stg.lib.uci.edu	</a>	</td>	<td> 	<a href="	http://dash.lib.uci.edu">dash.lib.uci.edu	</a>	</td>	</tr>
+<tr>	<td> 	 UCLA 	</td>	<td> 	<a href="	http://dash-ucla-stg.cdlib.org">dash-stg-ucla.cdlib.org	</a>	</td>	<td> 	<a href="	http://dash-ucla.cdlib.org">dash-ucla.cdlib.org	</a>	</td>	</tr>
+<tr>	<td> 	 UC Merced 	</td>	<td> 	<a href="	http://dash-stg.ucmerced.edu">dash-stg.ucmerced.edu	</a>	</td>	<td> 	<a href="	http://dash.ucmerced.edu">dash.ucmerced.edu	</a>	</td>	</tr>
+</table>														
 
