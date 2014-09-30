@@ -16,7 +16,6 @@ permalink: /site-map/
 * [Operations](http://cdluc3.github.io/dash/operations)
 * [Participation](http://cdluc3.github.io/dash/participation)
 * [Partners Meeting, 25 Sept 2014](http://cdluc3.github.io/dash/dash-meeting-ucla)
-* [Policies](http://cdluc3.github.io/dash/policies)
 * [Proceedure to add a campus for CDL](http://cdluc3.github.io/dash/proceedure-to-add-campus)
 * [Rails setup](http://cdluc3.github.io/dash/rails-setup)
 * [Rights, ownership, and licenses](http://cdluc3.github.io/dash/Rights-Ownership-Licenses)
