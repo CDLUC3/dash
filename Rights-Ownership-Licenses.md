@@ -29,9 +29,9 @@ While UCOP recommends using CC-BY, we already have a dataset with a CC0 license 
 1. Add the rights XML field to the output of /apps/models/record.rb that is submitted to Merritt as mrt-datacite.xml. It should look something like this:
 
 ```` 
-<rightsList>
-<rights rightsURI=” https://creativecommons.org/licenses/by/4.0/”>[Approved wording for CC-BY submissions]</rights>
-</rightsList>
+   <rightsList>
+   <rights rightsURI=” https://creativecommons.org/licenses/by/4.0/”>[Approved wording for CC-BY submissions]</rights>
+   </rightsList>
 ````
 
 ## Changes to Dash XTF
