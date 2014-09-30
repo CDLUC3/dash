@@ -4,14 +4,6 @@ title: Agreements
 permalink: /agreements/
 ---
 
-## Contents
-
-* [Rationale](agreements#Rationale)
-* [Data submission agreement](agreements#data-submission-agreement)
-* [Data use agreement](agreements#data-use-agreement)
-* [Policies and terms of use](agreements#policies-and-terms-of-use)
-
-
 ## Rationale
 
 All data submitted to Dash will be made available via the [Creative Commons Attribution 4.0 (CC-BY) license](https://creativecommons.org/licenses/by/4.0/). We recognize that this will not fit the needs of all researchers, however it simplifies implementation of Dash at this early stage.  
