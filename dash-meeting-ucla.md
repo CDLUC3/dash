@@ -64,7 +64,7 @@ permalink: /dash-meeting-ucla/
 <tr>
   	<td>13:30-13:45</td>
   	<td> </td>
-  	<td>Suggested enhancements: <a href="hhttps://docs.google.com/document/d/1SL1vkY97CF2pnawrJS0M_C7uMp6dW0Gia_2OSiWIVcM/edit?usp=sharing">GitHub issues</a></td>
+  	<td>Suggested enhancements: GitHub issues</td>
   </tr>
   <tr>
   	<td>13:45-14:00</td>
