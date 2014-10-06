@@ -5,7 +5,7 @@ permalink: /generic-faq/
 ---
 
 ## Instructions:
-* Download ([markdown](https://github.com/CDLUC3/dashdocs/blob/master/FAQ.md) or [Word](https://github.com/CDLUC3/dashdocs/blob/master/FAQ.docx?raw=true) version) this document and edit in your favorite word processing software. 
+* Download ([markdown](https://github.com/CDLUC3/dash/blob/gh-pages/docs/FAQ.md) or [Word](https://github.com/CDLUC3/dash/blob/gh-pages/docs/FAQ.docx?raw=true) version) this document and edit in your favorite word processing software. 
 * Most questions can be updated/revised, and new questions may be added as you see fit. 
 * At this time we are restricting content to static text. Links are welcomed.
 * This page can only be edited by UC3 personnel, which means you should not include transient information or links.

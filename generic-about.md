@@ -5,7 +5,7 @@ permalink: /generic-about/
 ---
 
 ### Instructions:
-* Download ([markdown](https://github.com/CDLUC3/dashdocs/blob/master/About.md) or [Word](https://github.com/CDLUC3/dashdocs/blob/master/About.docx?raw=true) version) this document and edit in your favorite word processing software. 
+* Download ([markdown](https://github.com/CDLUC3/dash/blob/gh-pages/docs/About.md) or [Word](https://github.com/CDLUC3/dash/blob/gh-pages/docs/About.docx?raw=true) version) this document and edit in your favorite word processing software. 
 * Most sections can be updated/revised, and new sections may be added as you see fit. 
 * At this time we are restricting content to static text. Links are welcomed.
 * Once live, this page will only be able to be edited by UC3 personnel, which means you should not include transient information or links.
