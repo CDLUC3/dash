@@ -10,7 +10,7 @@ permalink: /campus-tasks/
   * dash-dev.campus.edu should resolve to uc3-datashare-dev.cdlib.org, 192.35.209.63
   * dash-stg.campus.edu should resolve to uc3-datashare-stg.cdlib.org, 192.35.209.64
   * dash.campus.edu should resolve to cdl-datashare-p01.ucop.edu, 128.48.120.139
-3. We normally use self-signed certificates in development and staging. This eliminates the hassle of managing 'real' certificates, but will result in users in development and staging getting a security alert from their browser. In production we require a proper CA-signed certificate. Please generate a certificate request and private key, and obtain a certificate for dash.campus.edu from your preferred CA. If you would like to avoid the security alerts in development and staging, also generate private keys and certificates for dash-dev.campus.edu and dash-stg.campus.edu.
+3. We normally use self-signed certificates in development and staging. This eliminates the hassle of managing 'real' certificates, but will result in users in development and staging getting a security alert from their browser. In production we require a proper CA-signed certificate. Please generate a certificate request and private key, and obtain a certificate for dash.campus.edu from your preferred CA. If you would like to avoid the security alerts in development and staging, add dash-dev.campus.edu and dash-stg.campus.edu to your certificate as 'Subject Alternate Names.'
 
 ## Shibboleth
 To simplify authentication, please work with your campus Shibboleth administrator to make your IdP compliant with the 'Research and Scholarship' category at InCommon. 
