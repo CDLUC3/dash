@@ -25,7 +25,7 @@ permalink: /participation/
 ### Dash Outreach Materials
 
 <ul>
-	<li><a href="https://raw.githubusercontent.com/CDLUC3/dashdocs/master/Dash_generic.png">UC Dash Logo (png)</a></li>
+	<li><a href="https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/Dash_generic.png">UC Dash Logo (png)</a></li>
 </ul>
 
 ### [Soft Release Instructions](http://cdluc3.github.io/dash/soft-release)
