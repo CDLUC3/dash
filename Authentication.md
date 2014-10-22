@@ -30,7 +30,7 @@ Redirect to the app - Requires Rails app to set something in Session Header.  Ha
 
 
 **Flowchart on the left hand side (in blue) describes this:**
-![](https://raw.githubusercontent.com/CDLUC3/dashdocs/master/authentication-flow-chart.jpg)
+![](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/authentication-flow-chart.jpg)
 
 ## Moving Authentication to Rails
 
