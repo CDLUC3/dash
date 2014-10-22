@@ -35,7 +35,7 @@ permalink: /XTF-Installation/
 
 
 ### Download Data directory
-1. : Unzip [dash-data.zip](https://github.com/CDLUC3/dash/blob/gh-pages/dash-data.zip?raw=true) and rename folder "dash-data" to "data" to 
+1. : Unzip [dash-data.zip](https://github.com/CDLUC3/dash/raw/gh-pages/docs/dash-data.zip) and rename folder "dash-data" to "data" to 
 
     ````
         /xtfWorkshop/tomcat/webapps/dash/xtf/
