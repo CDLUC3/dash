@@ -11,7 +11,6 @@ permalink: /operations/
 * [User Authorization](https://CDLUC3.github.io/dash/user-authorization)
 * [XTF installation](https://CDLUC3.github.io/dash/XTF-Installation)
 * [Rails development setup](https://CDLUC3.github.io/dash/rails-setup)
-* [Rights, ownership, and licenses](https://CDLUC3.github.io/dash/Rights-Ownership-Licenses)
 * [Procedure for adding a campus to the CDL Dash server](https://CDLUC3.github.io/dash/procedure-to-add-campus)
 
 ## Other Links & Documents
