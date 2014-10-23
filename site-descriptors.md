@@ -33,6 +33,6 @@ Collect these Site Descriptors in the general use <a href="http://dataone.org"
 * LTER sites descriptions:  [http://www.lternet.edu/lter-sites](http://www.lternet.edu/lter-sites) 
 
 
-![Field Stations Visual](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/field-stations-visual.jpg)
+![Field Stations Visual](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/field-stations-visual.jpg)
 
 
