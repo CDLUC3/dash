@@ -62,6 +62,7 @@ Standardized submission agreement & data use agreement (CC-0)
   * Automated packaging and submission to the Merritt ONEShare collection.
     * Creation of equivalent DataCite and Dublin Core metadata files, see the crosswalk
     * Creation of the DataONE manifest file. There will be a pair of lines (one for “mrt-datacite.xml” and one for “mrt-dc.xml”) for each data <u>file</u> in the submission.
+
             <code>#%dataonem_0.1
             #%profile | http://uc3.cdlib.org/registry/ingest/manifest/mrt-dataone-manifest
             #%prefix | dom: | http://uc3.cdlib.org/ontology/dataonem#
@@ -71,20 +72,25 @@ Standardized submission agreement & data use agreement (CC-0)
             mrt-dc.txt | http://dublincore.org/schemas/xmls/qdc/2008/02/11/qualifieddc.xsd | <u>file</u> | text/xml
             ...
             #%eof</code>
+
 * Discovery: Faceted XTF search and browse, with faceting of all DataCite metadata elements.
 * Miscellaneous
   * Pages for “About”, “Terms of service”, “FAQ”, “Policies” in all footers.
   * “Contact Us” page
-* Configuration
-  * OAuth-based authentication with Google credentials, supported in the Ruby/Rails application with the OmniAuth gem.
-  * Merritt ONEShare user role account. 
-  * Public Merritt ONEShare collection (already existing).
-  * Submission profile for the ONEShare collection, using the VM-based storage service (uc3-mrt-store.cdlib.org) to deposit data in the UNM storage node with assigned DOIs and register with the Merritt member node.  [Work with Mark to modify the existing DataUp profile]
-  * EZID DOI minter for ONEShare.  DataONE will become an EZID member.
-  * Maximum size of individual campus collections.
-* Operations
-  * Cron job for Python harvesting script.
-  * Groundwork/Nagios monitors.
-  * Weekly report of the total and incremental number and size of datasets by campus/Merritt collection, mailed to designated campus contacts.
+
+### Configuration
+
+* OAuth-based authentication with Google credentials, supported in the Ruby/Rails application with the OmniAuth gem.
+* Merritt ONEShare user role account. 
+* Public Merritt ONEShare collection (already existing).
+* Submission profile for the ONEShare collection, using the VM-based storage service (uc3-mrt-store.cdlib.org) to deposit data in the UNM storage node with assigned DOIs and register with the Merritt member node.  [Work with Mark to modify the existing DataUp profile]
+* EZID DOI minter for ONEShare.  DataONE will become an EZID member.
+* Maximum size of individual campus collections.
+
+### Operations
+
+* Cron job for Python harvesting script.
+* Groundwork/Nagios monitors.
+* Weekly report of the total and incremental number and size of datasets by campus/Merritt collection, mailed to designated campus contacts.
 
 
