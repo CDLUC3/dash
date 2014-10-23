@@ -26,6 +26,7 @@ The following features should be tested, documented, and available as a precondi
 ### Policies
 
 Standardized submission agreement & data use agreement (CC-0)
+
 * Maximum size of individual dataset files and datasets
 * Maximum size of individual campus collections
 * No price model necessary since storage paid for by UNM
@@ -60,23 +61,18 @@ Standardized submission agreement & data use agreement (CC-0)
     * Opportunity to review metadata and add/delete files prior to submission.
   * Automated packaging and submission to the Merritt ONEShare collection.
     * Creation of equivalent DataCite and Dublin Core metadata files, see the crosswalk
-    * Creation of the DataONE manifest file.  (A backslash “\” indicates line continuation):
+    * Creation of the DataONE manifest file. :
+            #%dataonem_0.1
+            #%profile | http://uc3.cdlib.org/registry/ingest/manifest/mrt-dataone-manifest
+            #%prefix | dom: | http://uc3.cdlib.org/ontology/dataonem#
+            #%prefix | mrt: | http://uc3.cdlib.org/ontology/mom#
+            #%fields | dom:scienceMetadataFile | dom:scienceMetadataFormat | dom:scienceDataFile | mrt:mimeType
+            mrt-datacite.xml | http://schema.datacite.org/meta/kernel-3/metadata.xsd | <u>file</u> | text/xml
+            mrt-dc.txt | http://dublincore.org/schemas/xmls/qdc/2008/02/11/qualifieddc.xsd | <u>file</u> | text/xml
+            ...
+            #%eof
 
-    #%dataonem_0.1
-    #%profile | http://uc3.cdlib.org/registry/ingest/manifest/mrt-dataone-manifest
-    #%prefix | dom: | http://uc3.cdlib.org/ontology/dataonem#
-    #%prefix | mrt: | http://uc3.cdlib.org/ontology/mom#
-    #%fields | dom:scienceMetadataFile | dom:scienceMetadataFormat | \
-               dom:scienceDataFile | mrt:mimeType
-    mrt-datacite.xml | http://schema.datacite.org/meta/kernel-3/metadata.xsd | \
-           file | text/xml
-    mrt-dc.txt | \
-           http://dublincore.org/schemas/xmls/qdc/2008/02/11/qualifieddc.xsd | \
-           file | text/xml
-    ...
-    #%eof
-
-There will be a pair of lines (one for “mrt-datacite.xml” and one for “mrt-dc.xml”) for each data file in the submission.
+There will be a pair of lines (one for “mrt-datacite.xml” and one for “mrt-dc.xml”) for each data <u>file</u> in the submission.
 * Discovery: Faceted XTF search and browse, with faceting of all DataCite metadata elements.
 * Miscellaneous
   * Pages for “About”, “Terms of service”, “FAQ”, “Policies” in all footers.
