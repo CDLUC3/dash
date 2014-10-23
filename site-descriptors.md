@@ -23,7 +23,7 @@ permalink: /site-descriptors/
 
 Collect these Site Descriptors in the general use <a href="http://dataone.org" target="_blank">DataONE</a> repository, ONEShare. The user interface will be a new instance of the existing <a href="http://dash.cdlib.org" target="_blank">UC3 Dash service</a> (under development) with some modifications for Site Descriptors.
 
-## Existing descriptions
+## Existing Site Descriptions
 
 * Example from NRS: metadata submitted to KNB; got a DOI [http://nrs.ucop.edu/biblioDOI.htm](http://nrs.ucop.edu/biblioDOI.htm)
 * Web page from Sierra Nevada field station: [vesr.ucnrs.org/pages/snarlmoreinfo.html](http://vesr.ucnrs.org/pages/snarlmoreinfo.html) 
