@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DataONE Dash Test Script
+title: Dash Test Script
 permalink: /test-script/
 ---
 
