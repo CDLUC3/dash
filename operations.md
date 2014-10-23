@@ -11,17 +11,12 @@ permalink: /operations/
 * [User authorization](https://CDLUC3.github.io/dash/user-authorization)
 * [XTF installation](https://CDLUC3.github.io/dash/XTF-Installation)
 * [Rails development setup](https://CDLUC3.github.io/dash/rails-setup)
-* [Release criteria](https://CDLUC3.github.io/dash/release-criteria)
+* [Release criteria](https://CDLUC3.github.io/dash/release-criteria) ([older version](https://CDLUC3.github.io/dash/release-criteria-old))
 * [Rights and ownership](https://CDLUC3.github.io/dash/Rights-Ownership-Licenses)
 * [Procedure for adding a campus to the CDL Dash server](https://CDLUC3.github.io/dash/procedure-to-add-campus)
 * [Test script](https://CDLUC3.github.io/dash/test-script)
 
-## Other Links & Documents (Google Drive)
-
-<ul>
-  <li><a href="https://docs.google.com/document/d/1u00NWxien-eZ5uvXpCIpSMWb1SO_5RLkh2l2IaTLIsQ/edit#heading=h.mw366im6tj2j">Dash V1 Production Release Criteria</a></li>
-<li><a href="https://docs.google.com/spreadsheets/d/1zA8YBOvSvAYd66mqnbg_eMrt6oAdi_LFvCIBGzHZqIw/edit#gid=1629117340">Dash Work Plan</a></li>
-</ul>
+## [Dash Work Plan](https://docs.google.com/spreadsheets/d/1zA8YBOvSvAYd66mqnbg_eMrt6oAdi_LFvCIBGzHZqIw/edit#gid=1629117340) (google doc)
 
 ## Code repositories
 

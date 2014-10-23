@@ -16,7 +16,7 @@ permalink: /site-map/
 * [Partners Meeting, 25 Sept 2014](http://cdluc3.github.io/dash/dash-meeting-ucla)
 * [Proceedure to add a campus for CDL](http://cdluc3.github.io/dash/proceedure-to-add-campus)
 * [Rails setup](http://cdluc3.github.io/dash/rails-setup)
-* [Release criteria](http://cdluc3.github.io/dash/release-criteria)
+* [Release criteria](http://cdluc3.github.io/dash/release-criteria) ([older version](http://cdluc3.github.io/dash/release-criteria-old))
 * [Rights, ownership, and licenses](http://cdluc3.github.io/dash/Rights-Ownership-Licenses)
 * [Site descriptors project](http://cdluc3.github.io/dash/site-descriptors)
 * [Test script](http://cdluc3.github.io/dash/test-script)
