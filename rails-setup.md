@@ -33,6 +33,7 @@ These are the instructions to bring up the Rails environment for the dash-ingest
 ````
 $ RAILS_ENV=env bundle exec rake db:setup
 ```` 
+
 (replace 'env' with the name of the current environment).
 
 
@@ -48,7 +49,6 @@ $ RAILS_ENV=local rails server
 
 ````
 $ Cap development deploy
-
 $ Cap development deploy:restart
 ````
 
