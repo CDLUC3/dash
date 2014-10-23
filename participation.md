@@ -12,7 +12,7 @@ permalink: /participation/
 <li> <a href="http://cdluc3.github.io/UC-code-camp/"> UC Code Camp, 27-28 Aug 2014</a>. (<a href="http://datapub.cdlib.org/2014/09/03/the-first-uc-libraries-code-camp/">Summary on Data Pub Blog</a>)</li>
 </ul>
 
-### Campus Implementation Documents
+### Information & Documents for Partners
 
 <ul>
   <li><a href="http://CDLUC3.github.io/dash/campus-tasks">Implementation tasks</a></li>
