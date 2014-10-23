@@ -27,31 +27,31 @@ This procedure assumes that the campus has already set up DNS entries and provid
     ````
 4. For each environment, edit the correct .yaml file for the host to set up the Vhost using Puppet. The .yaml files are best edited as dpr2@uc3-mrt-wrk1-stg.cdlib.org. The files live under /dpr2/etc/infra-puppet/hiera/node/[fqdn].yaml. This is most easily accomplished by copy-and-pasting an existing campus configuration block. Example:
     ````
-    /dpr2/etc/infra-puppet/hiera/node/uc3-datashare-dev.cdlib.org.yaml
-      vhost_ucla:
-        path: "apps/apache/conf"
-        script_type: template
-        user: "dash"
-        script: "vhost-dash-ucla-dev.cdlib.org.conf"
-        mytemplate: "vhost-dash-dev.conf"
-        myvhostname: "dash-ucla-dev.cdlib.org"
-        mydocroot: "/dash/apps/apache/htdocs/dev.dash.ucla.edu"
-        mycert: "/dash/ssl/2017-08-17/dash_ucla_edu_cert.cer"
-        mykey: "/dash/ssl/2017-08-17/dash.ucla.edu-san.key"
-        myidpshort: "ucla"
-        myothercampuses:
-          - { myothercampusidp: "urn:mace:incommon:ucop.edu", myothercampushost: dash-dev.ucop.edu }
-          - { myothercampusidp: "urn:mace:incommon:berkeley.edu", myothercampushost: dash-dev.berkeley.edu }
-        permissions: "0644"
+        /dpr2/etc/infra-puppet/hiera/node/uc3-datashare-dev.cdlib.org.yaml
+          vhost_ucla:
+            path: "apps/apache/conf"
+            script_type: template
+            user: "dash"
+            script: "vhost-dash-ucla-dev.cdlib.org.conf"
+            mytemplate: "vhost-dash-dev.conf"
+            myvhostname: "dash-ucla-dev.cdlib.org"
+            mydocroot: "/dash/apps/apache/htdocs/dev.dash.ucla.edu"
+            mycert: "/dash/ssl/2017-08-17/dash_ucla_edu_cert.cer"
+            mykey: "/dash/ssl/2017-08-17/dash.ucla.edu-san.key"
+            myidpshort: "ucla"
+            myothercampuses:
+              - { myothercampusidp: "urn:mace:incommon:ucop.edu", myothercampushost: dash-dev.ucop.edu }
+              - { myothercampusidp: "urn:mace:incommon:berkeley.edu", myothercampushost: dash-dev.berkeley.edu }
+            permissions: "0644"
     ````
 5. Update the 'myothercampuses' field for all the other campuses to include the new campus.
 6. Be certain the campus setup data in the .yaml file exists under both the section for Dash and the section for Root usage. Copy-and-paste the finished configuration block.
 7. Do a git commit and push to send the new .yaml file to the git repository master. A script called /dpr2/bin/push.bash automates this process. Just provide a commit message.
 8. Log on to each Dash server as the dash user and do the following:
     ````
-    cd /dash/etc/infra-puppet
-    git pull
-    /dash/bin/commit.bash
+        cd /dash/etc/infra-puppet
+        git pull
+        /dash/bin/commit.bash
     ````
     This will pull in the Puppet configuration created in steps 4-7, create the new campus vhost, and update the vhost-base.conf file to include the new campus vhost.
 9. /dash/apps/apache/bin/apachectl restart to read in the new config. The new campus site should now be active.
