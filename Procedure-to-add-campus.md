@@ -12,18 +12,18 @@ This procedure assumes that the campus has already set up DNS entries and provid
 
 3. Add Assertion Consumer Service endpoints for SAML 2.0 Browser Post, SAML 2.0 Browser Artifact, SAML 1.0 Browser Post, and SAML 1.0 Browser Artifact to the Shibboleth metadata for each environment (dev/stg/production). Examples:
     ````
-        Index: 25
-        Type: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST
-        Location: https://dash.ucmerced.edu/Shibboleth.sso/SAML2/POST
-        Index: 26
-        Type: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact
-        Location: https://dash.ucmerced.edu/Shibboleth.sso/SAML2/Artifact
-        Index: 27
-        Type: urn:oasis:names:tc:SAML:1.0:profiles:browser-post
-        Location: https://dash.ucmerced.edu/Shibboleth.sso/SAML/POST
-        Index: 28
-        Type: urn:oasis:names:tc:SAML:1.0:profiles:artifact-01
-        Location: https://dash.ucmerced.edu/Shibboleth.sso/SAML/Artifact
+        Index: 25  
+        Type: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST  
+        Location: https://dash.ucmerced.edu/Shibboleth.sso/SAML2/POST   
+        Index: 26  
+        Type: urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact  
+        Location: https://dash.ucmerced.edu/Shibboleth.sso/SAML2/Artifact  
+        Index: 27  
+        Type: urn:oasis:names:tc:SAML:1.0:profiles:browser-post  
+        Location: https://dash.ucmerced.edu/Shibboleth.sso/SAML/POST  
+        Index: 28  
+        Type: urn:oasis:names:tc:SAML:1.0:profiles:artifact-01  
+        Location: https://dash.ucmerced.edu/Shibboleth.sso/SAML/Artifact  
     ````
 
 4. For each environment, edit the correct .yaml file for the host to set up the Vhost using Puppet. The .yaml files are best edited as dpr2@uc3-mrt-wrk1-stg.cdlib.org. The files live under /dpr2/etc/infra-puppet/hiera/node/[fqdn].yaml. This is most easily accomplished by copy-and-pasting an existing campus configuration block. Example:
