@@ -4,8 +4,9 @@ title: DataONE Dash Test Script
 permalink: /test-script/
 ---
 
+Use this script to test the Dash tool. Please report bugs or issues using [GitHub Issues](http://github.com/cdluc3/dash/issues). 
 
-## Brochure site page: [dash.cdlib.org](https://dash-dev.cdlib.org/)
+### Brochure site page: [dash.cdlib.org](https://dash-dev.cdlib.org/)
 
 
 ![Brochure](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/brochure.png)
@@ -15,7 +16,7 @@ permalink: /test-script/
 * All links going to correct places
 
 
-## DataONE Dash Home Page
+### DataONE Dash Home Page
 
 ![Home](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/home.png)
 
@@ -28,7 +29,7 @@ permalink: /test-script/
 * Go to “FAQ”. Verify it’s DataONE specific.
 * Click on “My datasets”. Should take you to google login.
 
-## Search & Browse
+### Search & Browse
 
 ![Browse](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/browse.png)
 
@@ -39,7 +40,7 @@ permalink: /test-script/
 * ‘sort by’ works. 
 * Click on all the linked items works. eg. author does author search, show/hide abstract, title take you to the full record and you can download. 
 
-## Dataset landing page
+### Dataset landing page
 
 ![Landing](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/landing.png)
 
@@ -49,7 +50,7 @@ permalink: /test-script/
 * verify citation is correct
 * Make sure DataONE logo in top right; footers etc. also go to DataONE
 
-## Steps to Share Share Page
+### Steps to Share Share Page
 
 ![Steps](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/stepstoshare.png)
 
@@ -57,7 +58,7 @@ permalink: /test-script/
 * Links work
 
 
-## My Datasets
+### My Datasets
 
 ![MyDatasets](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/mydatasets.png)
 
@@ -66,7 +67,7 @@ permalink: /test-script/
 * DELETE. warning pops up and asks if you really want to delete. 
 * LOG. takes you to the log page
 
-## Metadata entry (1)
+### Metadata entry (1)
 
 ![metadata1](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/metadata1.png)
 
@@ -79,7 +80,7 @@ permalink: /test-script/
 * Ensure that additional authors and keywords work as expected. Add additional fields and delete.
 * Can’t proceed without required fields (Title, publisher, data type, author, keywords)
 
-## Metadata entry (2) 
+### Metadata entry (2) 
 
 ![Metadata2](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/metadata2.png)
 
@@ -93,7 +94,7 @@ permalink: /test-script/
 * Rights URI = http://creativecommons.org/publicdomain/zero/1.0/
 * Make sure DataONE logo in top right; footers etc. also go to DataONE
 
-## Upload
+### Upload
 
 ![Upload1](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/upload1.png)
 
@@ -110,7 +111,7 @@ permalink: /test-script/
 * click “start’ and it uploads your dataset
 * click ‘cancel’ and it removes it
 
-## Review & Submit
+### Review & Submit
 
 ![review](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/screenshots/review.png)
 
