@@ -47,10 +47,10 @@ $ RAILS_ENV=local rails server
 
 **Capistrano commands**: (from your local if you have ssh on the server)
 
-````
-    $ Cap development deploy  
-    $ Cap development deploy:restart
-````
+    ````
+        $ Cap development deploy  
+        $ Cap development deploy:restart
+    ````
 
 The test command is:
 
