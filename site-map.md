@@ -7,7 +7,6 @@ permalink: /site-map/
 * [Agreements](http://cdluc3.github.io/dash/agreements)
 * [Architecture overview](http://cdluc3.github.io/dash/architecture-overview)
 * [Campus tasks](http://cdluc3.github.io/dash/campus-tasks)
-* [Code repositories](http://cdluc3.github.io/dash/code-repositories)
 * [Contributing to Dash](http://cdluc3.github.io/dash/contributing)
 * [Generic About](http://cdluc3.github.io/dash/generic-about)
 * [Generic FAQ](http://cdluc3.github.io/dash/generic-faq)

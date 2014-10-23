@@ -23,4 +23,13 @@ permalink: /operations/
 <li><a href="https://docs.google.com/spreadsheets/d/1zA8YBOvSvAYd66mqnbg_eMrt6oAdi_LFvCIBGzHZqIw/edit#gid=1629117340">Dash Work Plan</a></li>
 </ul>
 
-## [Code repositories](http://CDLUC3.github.io/dash/code-repositories)
+## Code repositories
+
+* Dash Repositories
+   * [dash-ingest](https://github.com/CDLUC3/dash-ingest">dash-ingest)
+   * [dash-xtf](https://github.com/CDLUC3/dash-xtf">dash-xtf)
+   * [dash-harvester](https://github.com/CDLUC3/dash-harvester)
+* [UCSF DataShare](http://datashare.ucsf.edu) Repositories
+   * [datashare-ingest](https://github.com/CDLUC3/datashare-ingest)
+   * [datashare-main](https://github.com/CDLUC3/datashare)
+
