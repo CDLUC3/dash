@@ -4,13 +4,13 @@ title: Site Map
 permalink: /site-map/
 ---
 
-* [Agreements](http://cdluc3.github.io/dash/agreements)
 * [Architecture overview](http://cdluc3.github.io/dash/architecture-overview)
 * [Campus tasks](http://cdluc3.github.io/dash/campus-tasks)
 * [Contributing to Dash](http://cdluc3.github.io/dash/contributing)
 * [Generic About](http://cdluc3.github.io/dash/generic-about)
 * [Generic FAQ](http://cdluc3.github.io/dash/generic-faq)
 * [Infrastructure](http://cdluc3.github.io/dash/infrastructure)
+* [Licenses](http://cdluc3.github.io/dash/agreements)
 * [Operations](http://cdluc3.github.io/dash/operations)
 * [Participation](http://cdluc3.github.io/dash/participation)
 * [Partners Meeting, 25 Sept 2014](http://cdluc3.github.io/dash/dash-meeting-ucla)
