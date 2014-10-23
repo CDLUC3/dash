@@ -61,8 +61,8 @@ Standardized submission agreement & data use agreement (CC-0)
     * Opportunity to review metadata and add/delete files prior to submission.
   * Automated packaging and submission to the Merritt ONEShare collection.
     * Creation of equivalent DataCite and Dublin Core metadata files, see the crosswalk
-    * Creation of the DataONE manifest file. :
-            #%dataonem_0.1
+    * Creation of the DataONE manifest file. There will be a pair of lines (one for “mrt-datacite.xml” and one for “mrt-dc.xml”) for each data <u>file</u> in the submission.
+            <code>#%dataonem_0.1
             #%profile | http://uc3.cdlib.org/registry/ingest/manifest/mrt-dataone-manifest
             #%prefix | dom: | http://uc3.cdlib.org/ontology/dataonem#
             #%prefix | mrt: | http://uc3.cdlib.org/ontology/mom#
@@ -70,9 +70,7 @@ Standardized submission agreement & data use agreement (CC-0)
             mrt-datacite.xml | http://schema.datacite.org/meta/kernel-3/metadata.xsd | <u>file</u> | text/xml
             mrt-dc.txt | http://dublincore.org/schemas/xmls/qdc/2008/02/11/qualifieddc.xsd | <u>file</u> | text/xml
             ...
-            #%eof
-
-There will be a pair of lines (one for “mrt-datacite.xml” and one for “mrt-dc.xml”) for each data <u>file</u> in the submission.
+            #%eof</code>
 * Discovery: Faceted XTF search and browse, with faceting of all DataCite metadata elements.
 * Miscellaneous
   * Pages for “About”, “Terms of service”, “FAQ”, “Policies” in all footers.
