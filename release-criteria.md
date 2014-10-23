@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dash Production Release Criteria
+title: DataONE Dash Production Release Criteria
 permalink: /release-criteria/
 ---
 
