@@ -4,6 +4,8 @@ title: Dash Production Release Criteria (older version)
 permalink: /release-criteria-old/
 ---
 
+### _This is a previous version of the [current DataONE Dash Release Criteria document](http://cdluc3.github.io/dash/release-criteria/)_
+
 The following features should be tested, documented, and available as a precondition to the production release (V1) of Dash.
 
 ### Infrastructure
