@@ -21,6 +21,7 @@ permalink: /site-map/
 * [Rights, ownership, and licenses](http://cdluc3.github.io/dash/Rights-Ownership-Licenses)
 * [Site descriptors project](http://cdluc3.github.io/dash/site-descriptors)
 * [Soft Release Instructions](http://cdluc3.github.io/dash/soft-release)
+* [Test Script](http://cdluc3.github.io/dash/test-script)
 * [User authorization](http://cdluc3.github.io/dash/user-authorization)
 * [XTF Installation](http://cdluc3.github.io/dash/XTF-Installation)
 

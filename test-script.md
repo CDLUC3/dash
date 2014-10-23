@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Test Script
+title: DataONE Dash Test Script
 permalink: /test-script/
 ---
 
-DataONE Dash Test Scripts
 
 ## Brochure site page: [dash.cdlib.org](https://dash-dev.cdlib.org/)
 
