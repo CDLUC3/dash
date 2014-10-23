@@ -41,7 +41,7 @@ The Dash project will use the **Fork & Pull** model. This lets anyone fork an ex
 
 **Step 2. Set up your Rails development environment.**
 
-Information on setting up your Rails development environment locally can be found at [Operations: Rails development setup](https://github.com/CDLUC3/dash/rails-setup)
+Information on setting up your Rails development environment locally can be found at [Operations: Rails development setup](https://cdluc3.github.io/dash/rails-setup)
 
 **Step 3. Make changes, additions, etc. to the code.**
 
@@ -58,5 +58,5 @@ After successful review of the pull request containing the proposed changes, the
 These changes will be deployed onto the CDL dash-dev.cdlib.org virtual machine.
 
 ### Setting up a test development server to test the entire Dash system
-* [Apache configuration](https://github.com/CDLUC3/dash/infrastructure)
-* [XTF Installation](https://github.com/CDLUC3/dash/XTF-Installation) 
+* [Apache configuration](https://cdluc3.github.io/dash/infrastructure)
+* [XTF Installation](https://cdluc3.github.io/dash/XTF-Installation) 
