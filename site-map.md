@@ -6,7 +6,6 @@ permalink: /site-map/
 
 * [Agreements](http://cdluc3.github.io/dash/agreements)
 * [Architecture overview](http://cdluc3.github.io/dash/architecture-overview)
-* [Campus status](http://cdluc3.github.io/dash/campus-status)
 * [Campus tasks](http://cdluc3.github.io/dash/campus-tasks)
 * [Code repositories](http://cdluc3.github.io/dash/code-repositories)
 * [Contributing to Dash](http://cdluc3.github.io/dash/contributing)
@@ -21,8 +20,7 @@ permalink: /site-map/
 * [Release criteria](http://cdluc3.github.io/dash/release-criteria)
 * [Rights, ownership, and licenses](http://cdluc3.github.io/dash/Rights-Ownership-Licenses)
 * [Site descriptors project](http://cdluc3.github.io/dash/site-descriptors)
-* [Soft Release Instructions](http://cdluc3.github.io/dash/soft-release)
-* [Test Script](http://cdluc3.github.io/dash/test-script)
+* [Test script](http://cdluc3.github.io/dash/test-script)
 * [User authorization](http://cdluc3.github.io/dash/user-authorization)
 * [XTF Installation](http://cdluc3.github.io/dash/XTF-Installation)
 
