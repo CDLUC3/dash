@@ -5,7 +5,7 @@ permalink: /operations/
 ---
 
 * [Dash architecture (png)](https://CDLUC3.github.io/dash/architecture-overview)
-* [Data schema (png)](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/dash_schema.png)
+* [Data schema (png)](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/dash_schema_v2.png)
 * [Infrastructure](https://CDLUC3.github.io/dash/infrastructure)
 * [Authentication](https://CDLUC3.github.io/dash/authentication)
 * [User Authorization](https://CDLUC3.github.io/dash/user-authorization)
