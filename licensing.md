@@ -12,7 +12,7 @@ All data submitted to DataONE Dash will require a [Creative Commons Public Domai
 
 The [UC Academic Personnel Policy (APM) 020](http://www.ucop.edu/academic-personnel-programs/_files/apm/apm-020.pdf) states: "Notebooks and other original records of the research are the property of the University” (II. 5, p.3), which the university interprets as meaning that research data are owned by the university.
 
-UCOP General Counsel currently recommends a [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/), requiring attribution, but they continue to study the issue. In the interim, data submitted to UC Dash instances will be made available via CC-BY-4.0. We recognize that this will not fit the needs of all researchers, however it simplifies implementation of Dash at this early stage.  
+UCOP General Counsel currently recommends a [Creative Commons Attribution 4.0 (CC-BY-4.0) license](https://creativecommons.org/licenses/by/4.0/), requiring attribution, but they continue to study the issue. In the interim, data submitted to UC Dash instances will be made available via CC-BY-4.0. We recognize that this will not fit the needs of all researchers, but it simplifies implementation of Dash at this early stage.  
 
 Our use of CC-BY to make the terms of reuse explicit has some important advantages (the following text is borrowed heavily from [the Dryad repository's FAQ](http://datadryad.org/pages/faq) on their use of CC-BY licenses):
 
