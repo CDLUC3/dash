@@ -16,16 +16,16 @@ UCOP General Counsel currently recommends a [Creative Commons Attribution 4.0 (C
 
 Our use of CC-BY to make the terms of reuse explicit has some important advantages (the following text is borrowed heavily from [the Dryad repository's FAQ](http://datadryad.org/pages/faq) on their use of CC-BY licenses):
 
-* Interoperability: Since CC-BY is both human and machine-readable, other people and indexing services will automatically be able to determine the terms of use.
-* Universality: CC-BY is a single mechanism that is both global and universal, covering all data and all countries. It is also widely recognized.
-* Simplicity: There is no need for humans to make, or respond to, individual data requests. This allows more scientists to spend their time doing science.
+* **Interoperability**: Since CC-BY is both human and machine-readable, other people and indexing services will automatically be able to determine the terms of use.
+* **Universality**: CC-BY is a single mechanism that is both global and universal, covering all data and all countries. It is also widely recognized.
+* **Simplicity**: There is no need for humans to make, or respond to, individual data requests. This allows more scientists to spend their time doing science.
 
 
 ### Data submission agreement
 
 When a user submits to Dash, the following message is displayed: 
 
-<blockquote>By confirming submission to Dash, your data will be publicly available on the Dash website under a CC-BY-4.0 license. Please only submit legitimate, complete data.</blockquote>
+_By confirming submission to Dash, your data will be publicly available on the Dash website under a CC-BY-4.0 license. Please only submit legitimate, complete data._
 
 ### Data use agreement
 
