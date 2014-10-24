@@ -18,7 +18,7 @@ permalink: /participation/
   <li><a href="http://CDLUC3.github.io/dash/campus-tasks">Implementation tasks</a></li>
 <li><a href="http://CDLUC3.github.io/dash/generic-faq">Generic FAQ text</a></li>
 <li><a href="http://CDLUC3.github.io/dash/generic-about">Generic About text</a></li>
-<li><a href="http://CDLUC3.github.io/dash/agreements">Licenses</a></li>
+<li><a href="http://CDLUC3.github.io/dash/licensing">Licenses</a></li>
 <li><a href="http://CDLUC3.github.io/dash/user-authorization">User Authorization for Dash</a></li>
 <li><a href="http://CDLUC3.github.io/dash/contributing">Contributing to Dash development</a></li>
 </ul>

@@ -12,7 +12,6 @@ permalink: /operations/
 * [XTF installation](https://CDLUC3.github.io/dash/XTF-Installation)
 * [Rails development setup](https://CDLUC3.github.io/dash/rails-setup)
 * [Release criteria](https://CDLUC3.github.io/dash/release-criteria) ([older version](https://CDLUC3.github.io/dash/release-criteria-old))
-* [Rights and ownership](https://CDLUC3.github.io/dash/Rights-Ownership-Licenses)
 * [Procedure for adding a campus to the CDL Dash server](https://CDLUC3.github.io/dash/procedure-to-add-campus)
 * [Test script](https://CDLUC3.github.io/dash/test-script)
 
