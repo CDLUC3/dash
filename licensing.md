@@ -6,7 +6,7 @@ permalink: /licensing/
 
 ## DataONE Dash ([oneshare.cdlib.org](http://oneshare.cdlib.org))
 
-we will assign a Creative Commons Public Domain Dedication [CC0 1.0 waiver](http://creativecommons.org/publicdomain/zero/1.0/). This waiver has no restrictions on reuse and encourages reuse. 
+All data submitted to DataONE Dash will require a [Creative Commons Public Domain Dedication (CC0 1.0) waiver](http://creativecommons.org/publicdomain/zero/1.0/). This waiver has no restrictions on use and encourages reuse of data for any and all purposes. Read more on why CC0 is best for data at [wiki.creativecommons.org/CC0_use_for_data](https://wiki.creativecommons.org/CC0_use_for_data). 
 
 ## UC Dash (_campus_.dash.edu)
 
@@ -24,6 +24,7 @@ Our use of CC-BY to make the terms of reuse explicit has some important advantag
 ### Data submission agreement
 
 When a user submits to Dash, the following message is displayed: 
+
 > By confirming submission to Dash, your data will be publicly available on the Dash website under a CC-BY-4.0 license. Please only submit legitimate, complete data.
 
 ### Data use agreement
