@@ -5,7 +5,11 @@ permalink: /user-guide/
 ---
 ## Where to Start?
 
-There are multiple instances of the Dash tool, although they all have similar functions, look, and feel. If you are a University of California researcher and your campus is a Dash partner, you can use your campus-specific Dash instance. Available UC Dash instances:
+There are multiple instances of the Dash tool, although they all have similar functions, look, and feel.Note that **all** data deposited into any Dash of the instances is **publicly available via all Dash instances**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
+
+### UC Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP
+
+You can use your campus-specific Dash instance:
 
 * UC Merced: [dash.ucmerced.edu](http://dash.ucmerced.edu)
 * UCLA: [dash.ucla.edu](http://dash.ucla.edu)
@@ -13,9 +17,9 @@ There are multiple instances of the Dash tool, although they all have similar fu
 * UC Berkeley: [dash.berkeley.edu](http://dash.berkeley.edu)
 * UCOP: [dash.ucop.edu](http://dash.ucop.edu)
 
-If your are not a UC researcher or your campus is not a partner, you can use [DataONE Dash](http://oneshare.cdlib.org). This instances is available to anyone, free of charge. Use your Google credentials to deposit data.
+### Other Researchers
 
-Note that **all** data deposited into any Dash of the instances is **publicly available via all Dash instances**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data at any of the URLs above, regardless of campus affiliation.
+If your are not a UC researcher or your campus is not a partner, you can use [DataONE Dash](http://oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
 
 ## Brochure Page Overview
 
