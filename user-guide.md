@@ -5,7 +5,7 @@ permalink: /user-guide/
 ---
 ## Where to Start?
 
-There are multiple instances of the Dash tool, although they all have similar functions, look, and feel.Note that **all** data deposited into any Dash of the instances is **publicly available via all Dash instances**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
+There are multiple instances of the Dash tool, although they all have similar functions, look, and feel. Note that **all** data deposited into any Dash of the instances is **publicly available via all Dash instances**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
 
 ### UC Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP
 
