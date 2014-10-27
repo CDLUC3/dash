@@ -12,6 +12,7 @@ permalink: /participation/
 <li> <a href="http://cdluc3.github.io/UC-code-camp/"> UC Code Camp, 27-28 Aug 2014</a>. (<a href="http://datapub.cdlib.org/2014/09/03/the-first-uc-libraries-code-camp/">Summary on Data Pub Blog</a>)</li>
 </ul>
 
+
 ### Information & Documents for Partners
 
 <ul>
@@ -21,6 +22,7 @@ permalink: /participation/
 <li><a href="http://CDLUC3.github.io/dash/licensing">Licenses</a></li>
 <li><a href="http://CDLUC3.github.io/dash/user-authorization">User Authorization for Dash</a></li>
 <li><a href="http://CDLUC3.github.io/dash/contributing">Contributing to Dash development</a></li>
+<li><a href="mailto:uc3@ucop.edu">Email us to join the Dash listserv</a></li>
 </ul>
 
 ### Dash Outreach Materials
