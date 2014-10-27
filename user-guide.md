@@ -47,6 +47,8 @@ _Not sure what URL you should be using? See our [flow chart](https://raw.githubu
    1. Enter a search term in the box to look for specific data.
    1. Click "Browse All Data" to browse all.
 
+### Browse Data
+
 ![browse](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/browse.jpg)
 
 
@@ -55,6 +57,8 @@ _Not sure what URL you should be using? See our [flow chart](https://raw.githubu
 3. Search results can be sorted by title, author, etc.
 4. Search results are displayed; click on the title to go to the dataset landing page and view the full metadata.
 
+### Dataset Page
+
 ![landing page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/landing.jpg)
 
 1. Metadata for the dataset will be displayed.
@@ -62,25 +66,40 @@ _Not sure what URL you should be using? See our [flow chart](https://raw.githubu
 3. License and use terms for the dataset are displayed.
 
 
-
 ## Depositing Data
 
-1. Go to the Dash landing page: [dash.cdlib.org](https://dash-dev.cdlib.org/)
-1. Select either a UC campus or select "Go to DataONE Dash"
-1. Click on "Share data". Be sure you have the necessary metadata and dataset files to continue
-1. Click on "Begin"
-1. Log in using either your campus credentials (UC campus partners) or your Google credentials (DataONE Dash)
-1. Click "add new dataset"
-1. Fill out the metadata
-1. Click "Save and continue"
-1. Upload your dataset file(s)
-   1. browse or drag and drop
-   1. click "Start" to upload
-1. once completed, click "review and submit"
+1. Go to the Dash home page of your choosing (see list above). Log into Dash. Do this by one of the following routes:
+
+1. Clicking on "Share data" in the menu bar
+1. Clicking on "My Datasets" in the menu bar
+1. Clicking on "Get Started". This option will provide you with more on metadata, uploading basics, and other helpful information.
+
+Once logged in, you will be on a page called the "My Datasets". 
+
+![my datasets](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/mydatasets.jpg)
+
+1. Previously added datasets will be displayed here.
+1. Click "Add New Dataset" to add your dataset to Dash.
+
+![metadata](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/metadata.jpg)
+
+1. Add metadata for your dataset. For help, click on the blue circles with "?" next to the metadata field.
+1. Click "Save and continue".
+
+![upload](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/upload.jpg)
+
+1. Upload your dataset file(s): browse or drag and drop
+
+![upload2](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/upload2.jpg)
+
+2. click "Start" to upload
+3. once completed, click "Review and Submit"
+
+![review](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/review.jpg)
+
 1. Review metatadata to ensure it's correct
-1. Click submit
-1. acknowledge your data will be available cc-by
+2. Ensure all data files are uploaded.
+3. Click "Submit to Dash"
+4. Acknowledge your data will be available cc-by
 
-your dataset will appear... bla bla bla
-
-you can edit... bla bla bla 
+_You will receive an email confirming your submission. Please allow 12-24 hours for your data to appear in Dash._
