@@ -22,17 +22,17 @@ There is a standard httpd.conf file that sets very few parameters for the Apache
 
 An overall brochure site is available at http://dash-dev.cdlib.org. This is largely a static site. It provides general information about the Dash application, and allows the user to select their institution. Upon selecting an institution, the user is routed to the virtual host for their particular instance of Dash.
 
-For each participating campus, there is an Apache virtual host defined to respond to the URL for that campus. For example, a request made to http://dash-dev.berkeley.edu is sent to the dash-dev.berkeley.edu virtual host. The vhost configuration for each campus defines a campus-specific document root, a campus-specific certificate and key for SSL, campus-specific log files, basic Shibboleth configuration, and rewrite rules to route requests to the backend XTF and Ruby applications at ports 8085 and 8080, respectively. Ports 8085 and 8080 are locked down by local firewall rules so they will only accept connections from the localhost. This forces all connections to go through the Apache proxy, where Shibboleth authentication is enforced. An example configuration file is attached to this Wiki page, at the top.
+For each participating campus, there is an Apache virtual host defined to respond to the URL for that campus. For example, a request made to http://dash-dev.berkeley.edu is sent to the dash-dev.berkeley.edu virtual host. The vhost configuration for each campus defines a campus-specific document root, a campus-specific certificate and key for SSL, campus-specific log files, basic Shibboleth configuration, and rewrite rules to route requests to the backend XTF and Ruby applications at ports 8085 and 8080, respectively. Ports 8085 and 8080 are locked down by local firewall rules so they will only accept connections from the localhost or specific campus reverse proxy servers. This forces all connections to go through an Apache proxy. An example configuration file is attached to this Wiki page, at the top.
 
 The document root directories are used to deliver static content that gives each virtual host a campus-specific identity. Elements such as campus logos and boilerplate text are kept here. Campus-specific certificates are used to prevent users from seeing security exceptions in their browser when they access the application via SSL.
 
-An instance of Dash is running at http://dash-dev.ucop.edu to accommodate CDL needs.
+Instances of Dash are running at http://dash-dev.ucop.edu, dash-stg.ucop.edu, and dash.ucop.edu, to accommodate CDL needs.
 
 ### Shibboleth Configuration:
 
-A single Shibboleth Service Provider is installed on uc3-datashare-dev.cdlib.org. The entity ID is "https://dash-dev.cdlib.org/shibboleth". The associated SP metadata has endpoints configured to route responses to the correct Apache virtual host for each campus. These are the key elements to define a campus endpoint:
+A  Shibboleth Service Provider is embedded within the Rails Dash Ingest application running at port 8085. The entity ID is "https://dash.cdlib.org/shibboleth". The associated SP metadata has endpoints configured to route responses to the correct Apache virtual host for each campus, in the development, staging, and production environments. These are the key elements to define a campus endpoint:
 
-DiscoveryResponse element: Each campus must have a DiscoveryResponse element defined, to route Shibboleth authentication requests to the Shibboleth SP with the correct DNS name embedded in the redirect. Here is the one for UC Berkeley:
+DiscoveryResponse element: Each campus must have a DiscoveryResponse element defined, to route Shibboleth authentication requests to the Shibboleth SP with the correct DNS name embedded in the redirect. Here is the one for UC Berkeley's development instance:
 
 ```` 
     <DiscoveryResponse xmlns="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://dash-dev.berkeley.edu/Shibboleth.sso/Login" index="3"/>
@@ -44,27 +44,9 @@ AssertionConsumerService elements: Each campus must have AssertionConsumerServic
     <md:AssertionConsumerService xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" index="9" Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://dash-dev.berkeley.edu/Shibboleth.sso/SAML/POST"/>
 ````
 
-Rather than define a specific set of attributes for the Dash application and doing a one-by-one integration with each campus IDP, the Dash application is registered with UCTrust ﻿(work in progress as of 4/2014). As part of the UCTrust initiative, every campus IDP will automatically recognize the Dash SP and release a standard set of attributes.
+Rather than define a specific set of attributes for the Dash application and doing a one-by-one integration with each campus IDP, the Dash application is registered with UCTrust (http://www.ucop.edu/information-technology-services//initiatives/uctrust-the-university-of-california-identity.html) ﻿(work in progress as of 4/2014). As part of the UCTrust initiative, every campus IDP will automatically recognize the Dash SP and release a standard set of attributes. Dash is also registered with InCommon as part of the Research and Scholarship category (https://spaces.internet2.edu/display/InCFederation/Research+and+Scholarship+Category). This is similar to UCTrust, in that it means that any Identity Provider that recognizes the Research and Scholarship category will automatically release a standard set of requested attributes to the Dash SP.
 
-Dash uses a local discovery service at https://uc3-datashare-dev.cdlib.org/eds.html. This is a very bare-bones implementation, but will be cleaned up and integrated into the Dash UI as part of the development effort. The local discovery service is controlled by Javascript files under ````/dash/apps/apache/htdocs/dash-dev````, the document root for the base Apache instance. The file called idpselect_config.js contains the data to populate the list of IDPs in the UI. It is limited to the 10 UC campuses, plus UCOP, at the moment.
-
-### Potential Enhancements:
-
-* More elegant IDP discovery page
-* More elegant brochure page
-  * Figure out how to select the campus and set the IDP in a single operation - right now the user chooses a campus, is routed to the discovery service, and then chooses the campus again.
-  * Better graphics, more content
-* CDL Identity Provider to allow registration of unaffiliated users - people that do not have identities in any campus or UCOP identity provider.
-* Lock authenticated users to the appropriate campus-specific site, probably something like this in Apache:
-    ````
-        RewriteCond %{eppn} ucdavis
-
-        RewriteRule ^.*$ http://dash.ucdavis.edu%{REQUEST_URI} [R]
-
-        RewriteCond %{eppn} berkeley
-
-        RewriteRule ^.*$ http://dash.berkeley.edu%{REQUEST_URI} [R]
-    ````
+Dash uses a local discovery service that is part of the Rails Dash Ingest application. Please see the documentation for Dash Ingest (https://github.com/CDLUC3/dash-ingest) for more information.
 
 ## Staging Environment
 
