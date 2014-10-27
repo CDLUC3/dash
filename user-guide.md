@@ -4,10 +4,23 @@ title: Dash User Guide
 permalink: /user-guide/
 ---
 
-## Website Overview
+## Brochure Page Overview
 
-1. flow chart?
-1. explain different instances
+![brochure page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/brochure.jpg)
+
+
+
+## Home Page Overview
+
+![home page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/home-page.jpg)
+
+1. General information about the project (About, Terms of Use, FAQ, Policies, and Contact Us)
+2. Search and/or browse datasets in Dash.
+3. Learn more about how to deposit data in Dash.
+4. Log into the Dash system (you must be at the appropriate URL for your institution).
+5. If you are using a non-UCOP version of Dash (e.g., UCLA or DataONE), a logo will appear here and "UC Dash" in the bar will reflect the instance of Dash you are using.
+
+_Not sure what URL you should be using? See our [flow chart](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/Where2start.png) for help._
 
 
 ## Finding Data
