@@ -10,6 +10,7 @@ permalink: /user-guide/
 
 You can get to the brochure page by either clicking on the Dash logo in the top left corner of any Dash instance, or by going to [dash.cdlib.org](http://dash.cdlib.org).
 
+### On this page:
 1. General information about the Dash project. "Find Data" takes you to the data search/browse site for the UCOP instance of Dash.
 2. Researchers that are not part of the University of California, or whose UC campus is not listed on the right, can use this link to go to [DataONE Dash](http://oneshare.cdlib.org).
 3. Visit a campus-specific instance of Dash by clicking on the campus' button. Researchers from that campus can deposit data into Dash using their campus instance of the service.
@@ -30,6 +31,8 @@ _Not sure what URL you should be using? See our [flow chart](https://raw.githubu
 
 ![home page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/home-page.jpg)
 
+### On this page:
+
 1. General information about the project (About, Terms of Use, FAQ, Policies, and Contact Us)
 2. Search and/or browse datasets in Dash.
 3. Learn more about how to deposit data in Dash.
@@ -43,14 +46,15 @@ _Not sure what URL you should be using? See our [flow chart](https://raw.githubu
 ![home page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/home-page2.jpg)
 
 2. Do one of the following:
-   1. Click "Search Data" to browse all.
-   1. Enter a search term in the box to look for specific data.
-   1. Click "Browse All Data" to browse all.
+   * Click "Search Data" to browse all.
+   * Enter a search term in the box to look for specific data.
+   * Click "Browse All Data" to browse all.
 
 ### Browse Data
 
 ![browse](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/browse.jpg)
 
+### On this page:
 
 1. You can search all datasets in Dash by entering a term here.
 2. Use the facets on the left (Campus, Author, Keyword) to narrow down your search.
@@ -61,6 +65,8 @@ _Not sure what URL you should be using? See our [flow chart](https://raw.githubu
 
 ![landing page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/landing.jpg)
 
+### On this page:
+
 1. Metadata for the dataset will be displayed.
 2. Download the dataset by clicking the button. Note the size of the dataset is displayed.
 3. License and use terms for the dataset are displayed.
@@ -68,20 +74,25 @@ _Not sure what URL you should be using? See our [flow chart](https://raw.githubu
 
 ## Depositing Data
 
-1. Go to the Dash home page of your choosing (see list above). Log into Dash. Do this by one of the following routes:
-
+Go to the Dash home page of your choosing (see list above). Log into Dash. Do this by one of the following routes:
 1. Clicking on "Share data" in the menu bar
 1. Clicking on "My Datasets" in the menu bar
 1. Clicking on "Get Started". This option will provide you with more on metadata, uploading basics, and other helpful information.
+
+![home page 3](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/home-page3.jpg)
 
 Once logged in, you will be on a page called the "My Datasets". 
 
 ![my datasets](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/mydatasets.jpg)
 
+### On this page:
+
 1. Previously added datasets will be displayed here.
 1. Click "Add New Dataset" to add your dataset to Dash.
 
 ![metadata](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/metadata.jpg)
+
+### On this page:
 
 1. Add metadata for your dataset. For help, click on the blue circles with "?" next to the metadata field.
 1. Click "Save and continue".
