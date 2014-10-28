@@ -5,7 +5,7 @@ permalink: /user-guide/
 ---
 ## Where to Start?
 
-There are multiple instances of the Dash tool (with different URLs) that all have similar functions, look, and feel. Data deposited into _any_ Dash instance is **visible to all Dash instances**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
+There are multiple instances of the Dash tool (with different URLs) that all have similar functions, look, and feel. 
 
 ### Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP
 
@@ -21,20 +21,13 @@ You can use your campus-specific Dash instance:
 
 If your are not a University of California researcher or your campus is not a partner, you can use [DataONE Dash](http://oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
 
-## Brochure Page Overview
+### Data Visibility
 
-You can get to the brochure page by either clicking on the Dash logo in the top left corner of any Dash instance, or by going to [dash.cdlib.org](http://dash.cdlib.org).
-
-### Contents:
-1. General information about the Dash project. "Find Data" takes you to the data search/browse site for the UCOP instance of Dash.
-2. Researchers that are not part of the University of California, or whose UC campus is not listed on the right, can use this link to go to [DataONE Dash](http://oneshare.cdlib.org).
-3. Visit a campus-specific instance of Dash by clicking on the campus' button. Researchers from that campus can deposit data into Dash using their campus instance of the service.
-
-![brochure page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/brochure.jpg)
+Data deposited into _any_ Dash instance is **visible throughout all of Dash**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
 
 ## Home Page Overview
 
-The Dash home page is institution-specific. Available Dash instances:
+The Dash home page is institution-specific. Navigate to the appropriate home page (see above):
 
 * UC Merced: [dash.ucmerced.edu](http://dash.ucmerced.edu)
 * UCLA: [dash.ucla.edu](http://dash.ucla.edu)
