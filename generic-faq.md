@@ -45,6 +45,7 @@ No. Files of any type are acceptable for deposit. Ideally, file types will be no
 ### What best practices can I follow for data preparation?
 
 There are a variety of best practices depending on your field of research. For generic help, see the [DataONE Primer on Data Management Best Practices](http://www.dataone.org/sites/all/documents/DataONE_BP_Primer_020212.pdf) (PDF). Generally,
+
 * Ensure data files are the most up-to-date and complete versions
 * Ensure the integrity of data files (check if corrupted)
 * Ensure that all data relating to human subjects has been properly de-identified
