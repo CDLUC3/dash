@@ -9,13 +9,13 @@ There are multiple instances of the Dash tool (with different URLs) that all hav
 
 **Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP** can use their campus-specific Dash instance:
 
-* UC Merced: [dash.ucmerced.edu](http://dash.ucmerced.edu)
-* UCLA: [dash.ucla.edu](http://dash.ucla.edu)
-* UC Irvine: [dash.lib.uci.edu](dash.lib.uci.edu)
-* UC Berkeley: [dash.berkeley.edu](http://dash.berkeley.edu)
-* UCOP: [dash.ucop.edu](http://dash.ucop.edu)
+* [UC Berkeley Dash](https://dash.berkeley.edu): dash.berkeley.edu
+* [UC Irvine Dash](https://dash.lib.uci.edu): dash.lib.uci.edu
+* [UCLA Dash](https://dash.ucla.edu): dash.ucla.edu
+* [UC Merced Dash](https://dash.ucmerced.edu): dash.ucmerced.edu
+* [UCOP Dash](https://dash.ucop.edu): dash.ucop.edu
 
-**Other Researchers** (not a University of California researcher or your campus is not a partner) can use [DataONE Dash](http://oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
+**Other Researchers** (not a University of California researcher or your campus is not a partner) can use [DataONE Dash](http://oneshare.cdlib.org) (oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
 
 **Note:** Data deposited into _any_ Dash instance is **visible throughout all of Dash**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
 
@@ -25,12 +25,12 @@ There are multiple instances of the Dash tool (with different URLs) that all hav
 
 The Dash home page is institution-specific. Navigate to the appropriate home page (see above):
 
-* UC Merced: [dash.ucmerced.edu](http://dash.ucmerced.edu)
-* UCLA: [dash.ucla.edu](http://dash.ucla.edu)
-* UC Irvine: [dash.lib.uci.edu](dash.lib.uci.edu)
-* UC Berkeley: [dash.berkeley.edu](http://dash.berkeley.edu)
-* UCOP: [dash.ucop.edu](http://dash.ucop.edu)
-* DataONE Dash: [oneshare.cdlib.org](http://oneshare.cdlib.org)
+* [UC Berkeley Dash](https://dash.berkeley.edu): dash.berkeley.edu
+* [UC Irvine Dash](https://dash.lib.uci.edu): dash.lib.uci.edu
+* [UCLA Dash](https://dash.ucla.edu): dash.ucla.edu
+* [UC Merced Dash](https://dash.ucmerced.edu): dash.ucmerced.edu
+* [UCOP Dash](https://dash.ucop.edu): dash.ucop.edu
+* [DataONE Dash](http://oneshare.cdlib.org): oneshare.cdlib.org
 
 ### Contents:
 
