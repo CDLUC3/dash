@@ -16,7 +16,7 @@ permalink: /generic-about/
 
 ## Overview 
 
-Dash is a new self-service tool for researchers to describe, upload, and share their research data. It is designed to be a simple self-service curation tool for researchers, and helps them perform the following tasks:
+Dash is a new tool for researchers to describe, upload, and share their research data. It is designed to be a simple self-service curation tool for researchers, and helps them perform the following tasks:
 
 * Prepare data for curation by reviewing best practice guidance for the creation or acquisition of digital research data.
 * Select data for curation through local file browse or drag-and-drop operation.
