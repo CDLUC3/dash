@@ -25,6 +25,8 @@ If your are not a University of California researcher or your campus is not a pa
 
 Data deposited into _any_ Dash instance is **visible throughout all of Dash**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
 
+***
+
 ## Home Page Overview
 
 The Dash home page is institution-specific. Navigate to the appropriate home page (see above):
