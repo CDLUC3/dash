@@ -5,9 +5,9 @@ permalink: /user-guide/
 ---
 ## Where to Start?
 
-There are multiple instances of the Dash tool, although they all have similar functions, look, and feel. Note that **all** data deposited into any Dash of the instances is **publicly available via all Dash instances**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
+There are multiple instances of the Dash tool (with different URLs) that all have similar functions, look, and feel. Data deposited into _any_ Dash instance is **visible to all Dash instances**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
 
-### UC Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP
+### Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP
 
 You can use your campus-specific Dash instance:
 
@@ -19,7 +19,7 @@ You can use your campus-specific Dash instance:
 
 ### Other Researchers
 
-If your are not a UC researcher or your campus is not a partner, you can use [DataONE Dash](http://oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
+If your are not a University of California researcher or your campus is not a partner, you can use [DataONE Dash](http://oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
 
 ## Brochure Page Overview
 
