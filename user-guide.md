@@ -7,9 +7,7 @@ permalink: /user-guide/
 
 There are multiple instances of the Dash tool (with different URLs) that all have similar functions, look, and feel. 
 
-**Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP:**
-
-You can use your campus-specific Dash instance:
+**Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP** can use their campus-specific Dash instance:
 
 * UC Merced: [dash.ucmerced.edu](http://dash.ucmerced.edu)
 * UCLA: [dash.ucla.edu](http://dash.ucla.edu)
@@ -17,9 +15,7 @@ You can use your campus-specific Dash instance:
 * UC Berkeley: [dash.berkeley.edu](http://dash.berkeley.edu)
 * UCOP: [dash.ucop.edu](http://dash.ucop.edu)
 
-**Other Researchers**
-
-If your are not a University of California researcher or your campus is not a partner, you can use [DataONE Dash](http://oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
+**Other Researchers** (not a University of California researcher or your campus is not a partner) can use [DataONE Dash](http://oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
 
 ### Data Visibility
 
