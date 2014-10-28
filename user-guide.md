@@ -17,9 +17,7 @@ There are multiple instances of the Dash tool (with different URLs) that all hav
 
 **Other Researchers** (not a University of California researcher or your campus is not a partner) can use [DataONE Dash](http://oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
 
-### Data Visibility
-
-Data deposited into _any_ Dash instance is **visible throughout all of Dash**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
+**Note:** Data deposited into _any_ Dash instance is **visible throughout all of Dash**. For example, if you are a UC Merced researcher and use dash.ucmerced.edu to deposit data, your dataset will appear in search results for individuals looking for data via any of the Dash instances, regardless of campus affiliation.
 
 ***
 
