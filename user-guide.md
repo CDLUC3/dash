@@ -56,7 +56,7 @@ _You do not need to log into Dash to search, browse, or download data._
 
 ### Browse data
 
-1. You can search all datasets in Dash by entering a term here
+1. Search all datasets in Dash by entering term(s)
 2. Use the facets on the left (Campus, Author, Keyword) to narrow down your search
 3. Search results can be sorted by title, author, etc
 4. Search results are displayed; click on the title to go to the dataset landing page and view the full metadata
@@ -65,7 +65,7 @@ _You do not need to log into Dash to search, browse, or download data._
 
 ### Dataset page
 
-1. Metadata for the dataset will be displayed
+1. Metadata for the dataset is displayed
 2. Download the dataset by clicking the button. Note the size of the dataset is displayed
 3. License and use terms for the dataset are displayed
 
@@ -86,14 +86,14 @@ Go to the Dash home page of your choosing (see list above). Log into Dash. Do th
 Once logged in, you will be on a page called the "My Datasets". 
 
 1. Previously added datasets will be displayed here
-1. Click "Add New Dataset" to add your dataset to Dash
+1. Click "Add New Dataset" to add a new dataset to Dash
 
 ![my datasets](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/mydatasets.jpg)
 
 ### Enter metadata 
 
 1. Add metadata for your dataset. For help, click on the blue circles with "?" next to the metadata field
-1. Click "Save and continue"
+1. Click "Save and Continue"
 
 ![metadata](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/metadata.jpg)
 
@@ -108,7 +108,7 @@ Once logged in, you will be on a page called the "My Datasets".
 ![upload2](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/upload2.jpg)
 
 ### Review your submission
-1. Review metatadata to ensure it's correct
+1. Review metatadata to be sure it's correct
 2. Ensure all data files are uploaded
 3. Click "Submit to Dash"
 4. Acknowledge that your data will be available under a CC-BY or CC0 license (not shown)
