@@ -44,6 +44,8 @@ The Dash home page is institution-specific. Navigate to the appropriate home pag
 
 ## Finding Data
 
+_You do not need to log into Dash to search, browse, or download data._
+
 1. Go to the Dash home page of your choosing (see list above)
 2. Do one of the following:
    * Click "Search Data" to browse all
