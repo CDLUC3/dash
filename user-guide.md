@@ -5,7 +5,8 @@ permalink: /user-guide/
 ---
 ## Where to Start?
 
-There are multiple instances of the Dash tool (with different URLs) that all have similar functions, look, and feel (Read more on why [here](https://github.com/CDLUC3/dash/issues/35)). 
+There are multiple instances of the Dash tool (with different URLs) that all have similar functions, look, and feel 
+_Read more on why [here](https://github.com/CDLUC3/dash/issues/35)_. 
 
 **Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP** can use their campus-specific Dash instance:
 
