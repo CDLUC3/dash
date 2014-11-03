@@ -20,6 +20,7 @@ permalink: /site-map/
 * [Site descriptors project](http://cdluc3.github.io/dash/site-descriptors)
 * [Test script](http://cdluc3.github.io/dash/test-script)
 * [User authorization](http://cdluc3.github.io/dash/user-authorization)
+* [User guide](http://cdluc3.github.io/dash/user-guide)
 * [XTF Installation](http://cdluc3.github.io/dash/XTF-Installation)
 
 
