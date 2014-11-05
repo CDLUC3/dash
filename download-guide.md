@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dash User Guide: Downloading Data
+title: Downloading Data
 permalink: /download-guide/
 ---
 
