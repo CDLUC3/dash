@@ -29,6 +29,7 @@ permalink: /participation/
 
 * [UC Dash Logo](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/Dash_generic.png) (png)
 * [DataONE Dash slide deck](https://docs.google.com/presentation/d/1lIZuBjE1V5-SnVF0mEZfbdDeocB9mQAB0W8oy0l3iAM/edit#slide=id.g46971ea35_0101) (Google presentation)
+* [UC Dash slide deck](https://docs.google.com/presentation/d/13zEctwqFZYejGnrv_nMqaroOY6oCfBfzO-fm6MX6WPQ/edit?usp=sharing) (Google presentation)
 
 
 
