@@ -39,7 +39,7 @@ All other files are related to the deposit and harvest of data from the Merritt 
   * manifest.txt
 Please contact us at uc3@ucop.edu with any questions. 
 
-### README.txt
+### README.txt (automatically added to the data package)
 
 > The digital object you have downloaded from Merritt contains the dataset as well as a number of system files and folders. In order to access the dataset:
 > 1. You'll see a folder named "v00X" corresponding to the version number of the digital object. Open this folder.

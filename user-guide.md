@@ -72,6 +72,9 @@ _You do not need to log into Dash to search, browse, or download data._
 
 ![landing page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/landing.jpg)
 
+See our [User Guide on Downloading Data](http://cdlu3.github.io/dash/download-guide) for more information.
+
+
 ## Depositing Data
 
 Go to the Dash home page of your choosing (see list above). Log into Dash. Do this by one of the following routes:
