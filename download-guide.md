@@ -1,14 +1,11 @@
 ---
 layout: page
-title: Downloading Data
+title: Guidance for Downloading Data
 permalink: /download-guide/
 ---
 
-## Finding Data
 
-_To find data, see our [User Guide](http://cdluc3.github.io/dash/##Finding-Data). You do not need to log into Dash to search, browse, or download data._
-
-## Downloading Data
+_**To find data**, see our [User Guide](http://cdluc3.github.io/dash/##Finding-Data). You do not need to log into Dash to search, browse, or download data._
 
 ### From the Dataset landing page, click "Download".
 
