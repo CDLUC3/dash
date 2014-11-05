@@ -39,8 +39,6 @@ All other files are related to the deposit and harvest of data from the Merritt 
     * mrt-dataone-manifest.txt
   * manifest.txt
 
-Please contact us at uc3@ucop.edu with any questions. 
-
 ### Contents of the README.txt (automatically added to the data package)
 
 The digital object you have downloaded from Merritt contains the dataset as well as a number of system files and folders. In order to access the dataset:
