@@ -14,7 +14,7 @@ _**To find data**, see our [User Guide](http://cdluc3.github.io/dash/user-guide)
 1. Depending on your browser's download settings, either your dataset package will automatically download you will be asked to save the package on your computer. The file name will be similar to ````ark+=b7280=d1059f_version_7.zip````.
    * ````ark+=b7280=d1059f````: internal identifier assigned to the data package
     * ````version_7````: the version number of the data package you are downloading
-1. Double click on the .zip file to view its contents. The folder will reflect the version number, e.g., ````v007```` 
+1. Double click on the .zip file to view its contents. The new folder's name will reflect the version number, e.g., ````v007```` 
 1. Open the "full" folder.
 1. Open the "producer" folder. The data files will be in this folder.
 
