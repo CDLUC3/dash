@@ -27,9 +27,9 @@ permalink: /participation/
 
 ### Dash Outreach Materials
 
-<ul>
-	<li><a href="https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/Dash_generic.png">UC Dash Logo (png)</a></li>
-</ul>
+* [UC Dash Logo](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/Dash_generic.png) (png)
+* [DataONE Dash slide deck](https://docs.google.com/presentation/d/1lIZuBjE1V5-SnVF0mEZfbdDeocB9mQAB0W8oy0l3iAM/edit#slide=id.g46971ea35_0101) (Google presentation)
+
 
 
 
