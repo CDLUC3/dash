@@ -5,4 +5,4 @@ permalink: /architecture-overview/
 ---
 
 
-![Dash Architecture](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/dash-architecture.jpg)
+![Dash Architecture](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/Dash-architecture.jpg)
