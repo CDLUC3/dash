@@ -31,9 +31,9 @@ or the combination of:
     sn (surname)
     givenName
 
-Your campus IdP must be either registered in the R&S category or explicitly configured to supply these attributes to the Dash application.
+If your campus Shibboleth administrator does not want to make your IdP part of the Research and Scholarship category, then the campus IdP must be explicitly configured to supply these attributes to the Dash application's Service Provider.
 
-Either someone at your campus needs to register Service Provider metadata for the *.campus.edu hostnames, or the campus.edu domain administrator at your campus will need to send a note to InCommon authorizing the inclusion of the *.campus.edu hostnames within metadata registered by UCOP. And, of course, similar tasks will need to be completed for every other campus URL that we host on CDL servers.
+The campus.edu domain administrator at your campus will receive a request from InCommon when CDL adds the campus information to the Shibboleth Service Provider metadata. The campus domain administrator will need to respond to InCommon authorizing the inclusion of the *.campus.edu hostnames within metadata registered by UCOP.
 
 ## Logo
 
