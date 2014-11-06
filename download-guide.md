@@ -34,7 +34,7 @@ All other files are related to the deposit and harvest of data from the [Merritt
     * mrt-datacite.xml: metadata for the dataset ([DataCite](http://datacite.org) format)
     * mrt-dc.xml: metadata for the dataset ([Dublin Core](http://dublincore.org/) format)
     * mrt-dataone-manifest.txt: Mapping file needed for the submission of the dataset into the Merritt [DataONE](http://dataone.org) member node
-  * manifest.txt
+  * manifest.txt: file that the Merritt repository creates to ingest all of the dataset files. [Read more about the manifest](https://merritt.cdlib.org/help/manifest_guide).
 
 ### Contents of the README.txt (automatically added to the data package)
 
