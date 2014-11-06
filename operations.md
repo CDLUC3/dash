@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Operations Documentation
+title: Dash Operations Documents and Links
 permalink: /operations/
 ---
 
@@ -8,13 +8,14 @@ permalink: /operations/
 * [Data schema (png)](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/dash_schema_v2.png)
 * [Infrastructure](https://CDLUC3.github.io/dash/infrastructure)
 * [User authorization](https://CDLUC3.github.io/dash/user-authorization)
-* [XTF installation](https://CDLUC3.github.io/dash/XTF-Installation)
-* [Rails development setup](https://CDLUC3.github.io/dash/rails-setup)
 * [Release criteria](https://CDLUC3.github.io/dash/release-criteria) ([older version](https://CDLUC3.github.io/dash/release-criteria-old))
 * [Procedure for adding a campus to the CDL Dash server](https://CDLUC3.github.io/dash/procedure-to-add-campus)
 * [Test script](https://CDLUC3.github.io/dash/test-script)
 
-## [Dash Work Plan](https://docs.google.com/spreadsheets/d/1zA8YBOvSvAYd66mqnbg_eMrt6oAdi_LFvCIBGzHZqIw/edit#gid=1629117340) (google doc)
+## Installing Dash
+
+* [XTF installation](https://CDLUC3.github.io/dash/XTF-Installation)
+* [Rails development setup](https://CDLUC3.github.io/dash/rails-setup)
 
 ## Code repositories
 
