@@ -6,7 +6,7 @@ permalink: /help/
 
 ### User Guides
 
-* [General guidance: Finding and uploading data](http://cdluc3.github.io/dash/user-guide)
+* [General guidance: Finding & uploading data](http://cdluc3.github.io/dash/user-guide)
 * [Downloading data](http://cdluc3.github.io/dash/download-guide)
 
 ### General Information
