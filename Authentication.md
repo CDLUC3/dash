@@ -4,52 +4,20 @@ title: Authentication
 permalink: /authentication/
 ---
 
-## Current Scenario
+## OmniAuth
 
-Currently, the determination as to which Dash campus instance you land on is handled by **Apache**.  Apache detects any current sessions and if one is active, based on the session header information, directs the user to the proper dash campus instance.  If a session is not active, then the user selects their campus from the Discovery page and is routed to the proper IdP for authentication.  Once authenticated, Apache directs to the proper campus.
+Authentication is supported by both  InCommon/Shibboleth institutional (SAML protocol) or OAuth2 social credentials.  These strategies are supported with the omniauth gems omniauth-shibboleth and omniauth-google-oauth2.
 
-## What we need to support
+OmniAuth Shibboleth strategy uses the 'auth hash' for providing user attributes passed by a Shibboleth Service Provider (SP). It enables developers to use Shibboleth and the other authentication methods, including local auth, together in one application.  The DASH application uses a slight variant of the [omniauth-shibboleth gem](https://bitbucket.org/cdl/omniauth-shibboleth) to work with headers as opposed to environment variables.
 
-For the DataUp authentication, users will authenticate using **GoogleID**.  After authentication the user will be directed to the dash.dataone.org instance. With GoogleID authentication, we are assuming that many (most?) campus users will also be authenticated to Google for Gmail, Drive, etc.  Therefore Apache cannot use the session header information and make the determination of where to route the user since they'll most likely be authenticated to Google and may want to go to a UC campus instance of Dash, not to the dataONE instance.  
+omniauth-google-oauth2 strategy also uses the auth hash as defined in the [gem](https://github.com/zquestz/omniauth-google-oauth2).
 
-## Solution
+For the Dash application, authentication is invoked when a user would like to manage or create datasets for submission.  This is done by selecting My Datasets from the top menu bar.  For ONEShare users, users visiting oneshare.cdlib.org, are authenticated via Google credentials while UC campuses are authenticated via their campus via Shibboleth credentials.  
+If the user is already authenticated (i.e. logged in), they will be presented with a table of their current datasets.
 
-We need to ask the user which instance they would like and direct them to the proper authentication method. See flow chart below.
+If they are not authenticated, the workflow for determining their authentication is as follows.
 
-### If a Dash session exists
-
-Redirect to the app - Requires Rails app to set something in Session Header.  Handled by Apache
-
-### If no Dash session exists 
-
-* check if Shib or Google ID session exists, 
-  * No: prompt user to which site they want and direct to IdP  (can be handled by Apache?) 
-  * Yes: check which session exist - ask user which Dash instance they want. Does the session match the site they want?  
-    * No: Authenticate and then access Dash based on authentication.  Go to top of flow.
-    * Yes: Create the DASH session (Rails) and access Dash (ingest)
+![Dash Authentication Workflow]({{ site.baseurl }}/images/dash_authentication.png)
 
 
-**Flowchart on the left hand side (in blue) describes this:**
-![](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/authentication-flow-chart.jpg)
-
-## Moving Authentication to Rails
-
-**Problem**
-
-* Asking the user which site that they want and if it matches is outside scope of Apache.  So it was suggested that this logic be all contained in the Rails application.  
-* Rails would handle Shibboleth and GoogleID authentication via OmniAuth gem
-* Have a login page where user selects UC campus or DataONE and then gets directed to proper IdP or ingest if already authenticated
-* If we want to configure the shibboleth piece along with the UC authentication mechanisms, then the we need to make modifications to the Rails ingest to handle the discovery and selection page.
-
-**Solution**
-
-Proposal going forward is to set up 2nd VM to support Dash-DataUp application with Rails Omniauth authentication for Shibboleth & GoogleId
-
-**Risks**
-
-+ This requires changes to how apache directs requests to the rails piece.  
-+ Will affect Berkeley release schedule by at least 2 weeks since we need to incorporate additional functionality into Rails application to support shibboleth and add logic to determine where user is going, design and implement Apache.
-+ Possible changes to Shibboleth Incommon metadata to support 2nd VM.  Right now only set up for UCOP.  Rekha only has UCB credentials for testing.
-
-Have 2nd Dash instance for DataUp testing only.   This will not affect the codeline for current Dash development Apache configuration which only supports the UC campuses.  UCI would also be able to contribute to the codeline.  
 

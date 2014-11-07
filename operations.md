@@ -7,6 +7,7 @@ permalink: /operations/
 * [Dash architecture (png)](https://CDLUC3.github.io/dash/architecture-overview)
 * [Data schema (png)](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/dash_schema_v2.png)
 * [Infrastructure](https://CDLUC3.github.io/dash/infrastructure)
+* [Authentication ]({{ site.baseurl}}/Authentication)
 * [User authorization](https://CDLUC3.github.io/dash/user-authorization)
 * [XTF installation](https://CDLUC3.github.io/dash/XTF-Installation)
 * [Rails development setup](https://CDLUC3.github.io/dash/rails-setup)
