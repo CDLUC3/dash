@@ -28,7 +28,7 @@ There are three Dash repositories which make up the DASH web application
 * **[dash-harvester](https://github.com/CDLUC3/dash-harvester)**: A python script which parses an atom feed from Merritt for harvesting.
 
 ### Architecture
-![Architecture](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/DashArchitecture.png)
+![Architecture](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/Dash-architecture.jpg)
 
 
 ## To contribute to the dash-ingest repository
