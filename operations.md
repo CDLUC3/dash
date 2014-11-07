@@ -7,7 +7,7 @@ permalink: /operations/
 * [Dash architecture (png)](https://CDLUC3.github.io/dash/architecture-overview)
 * [Data schema (png)](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/dash_schema_v2.png)
 * [Infrastructure](https://CDLUC3.github.io/dash/infrastructure)
-* [Authentication ]({{ site.baseurl}}/Authentication)
+* [Authentication ]({{ site.baseurl }}/authentication)
 * [User authorization](https://CDLUC3.github.io/dash/user-authorization)
 * [Release criteria](https://CDLUC3.github.io/dash/release-criteria) ([older version](https://CDLUC3.github.io/dash/release-criteria-old))
 * [Procedure for adding a campus to the CDL Dash server](https://CDLUC3.github.io/dash/procedure-to-add-campus)
