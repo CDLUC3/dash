@@ -5,7 +5,7 @@ permalink: /download-guide/
 ---
 
 
-_**To find data**, see our [User Guide](http://cdluc3.github.io/dash/user-guide). You do not need to log into Dash to search, browse, or download data._
+_**To find data**, see our [User Guide]({{ site.baseurl }}/user-guide). You do not need to log into Dash to search, browse, or download data._
 
 ### From the Dataset landing page, click "Download".
 

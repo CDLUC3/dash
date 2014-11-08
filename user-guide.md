@@ -72,7 +72,7 @@ _You do not need to log into Dash to search, browse, or download data._
 
 ![landing page](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/images/userguide/landing.jpg)
 
-See our [User Guide on Downloading Data](http://cdluc3.github.io/dash/download-guide/) for more information.
+See our [User Guide on Downloading Data]({{ site.baseurl }}/download-guide/) for more information.
 
 
 ## Depositing Data
