@@ -4,19 +4,19 @@ title: Dash Operations Documents and Links
 permalink: /operations/
 ---
 
-* [Dash architecture (png)](https://CDLUC3.github.io/dash/architecture-overview)
+* [Dash architecture (png)]({{ site.baseurl }}/architecture-overview)
 * [Data schema (png)](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/dash_schema_v2.png)
-* [Infrastructure](https://CDLUC3.github.io/dash/infrastructure)
+* [Infrastructure]({{ site.baseurl }}/infrastructure)
 * [Authentication ]({{ site.baseurl }}/authentication)
-* [User authorization](https://CDLUC3.github.io/dash/user-authorization)
-* [Release criteria](https://CDLUC3.github.io/dash/release-criteria) ([older version](https://CDLUC3.github.io/dash/release-criteria-old))
-* [Procedure for adding a campus to the CDL Dash server](https://CDLUC3.github.io/dash/procedure-to-add-campus)
-* [Test script](https://CDLUC3.github.io/dash/test-script)
+* [User authorization]({{site.baseurl }}/dash/user-authorization)
+* [Release criteria]({{ site.baseurl }}release-criteria) ([older version]({{ site.baseurl }}/release-criteria-old))
+* [Procedure for adding a campus to the CDL Dash server]({{ site.baseurl }}/procedure-to-add-campus)
+* [Test script]({{ site.baseurl }}/test-script)
 
 ## Installing Dash
 
-* [XTF installation](https://CDLUC3.github.io/dash/XTF-Installation)
-* [Rails development setup](https://CDLUC3.github.io/dash/rails-setup)
+* [XTF installation]({{ site.baseurl }}/XTF-Installation)
+* [Rails development setup]({{ site.baseurl }}/rails-setup)
 
 ## Code repositories
 

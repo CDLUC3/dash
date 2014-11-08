@@ -48,8 +48,8 @@ Please be aware that your institution may have rules and regulations about websi
 
 1. Footer: Tell us what phrase and link you would like in the brackets of this footer sentence: Dash is a collaborative project between [XX - e.g., the UCLA library] and the UC Curation Center. 
 2. Contact us: Provide us with an email address for who/where the “contact us” form should go.
-3. FAQ: Create a institution-specific version. Start with [this text](http://cdluc3.github.io/dash/generic-faq) and amend as necessary.
-4. About: Create a institution-specific version. Start with [this text](http://cdluc3.github.io/dash/generic-about) and amend as necessary.
+3. FAQ: Create a institution-specific version. Start with [this text]({{ site.baseurl }}/generic-faq) and amend as necessary.
+4. About: Create a institution-specific version. Start with [this text]({{ site.baseurl }}/generic-about) and amend as necessary.
 
 ## Seed Datasets
 

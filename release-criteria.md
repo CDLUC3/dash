@@ -4,7 +4,7 @@ title: DataONE Dash Production Release Criteria
 permalink: /release-criteria/
 ---
 
-The following features should be tested, documented, and available as a precondition to the production release of DataONE Dash.
+The following features should be tested, documented, and available as a precondition to the production release of DataONE Dash. 
 
 ### Infrastructure
 

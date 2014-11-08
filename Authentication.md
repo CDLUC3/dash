@@ -6,7 +6,7 @@ permalink: /authentication/
 
 ## OmniAuth
 
-Authentication is supported by both  InCommon/Shibboleth institutional (SAML protocol) or OAuth2 social credentials.  These strategies are supported with the omniauth gems omniauth-shibboleth and omniauth-google-oauth2.
+Authentication is supported by both  InCommon/Shibboleth institutional (SAML protocol) or OAuth2 social credentials.  These strategies are supported with the omniauth gems omniauth-shibboleth and omniauth-google-oauth2. 
 
 OmniAuth Shibboleth strategy uses the 'auth hash' for providing user attributes passed by a Shibboleth Service Provider (SP). It enables developers to use Shibboleth and the other authentication methods, including local auth, together in one application.  The DASH application uses a slight variant of the [omniauth-shibboleth gem](https://bitbucket.org/cdl/omniauth-shibboleth) to work with headers as opposed to environment variables.
 
