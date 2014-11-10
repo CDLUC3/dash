@@ -8,7 +8,7 @@ permalink: /operations/
 * [Data schema (png)](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/dash_schema_v2.png)
 * [Infrastructure]({{ site.baseurl }}/infrastructure)
 * [Authentication ]({{ site.baseurl }}/authentication)
-* [User authorization]({{site.baseurl }}/dash/user-authorization)
+* [User authorization]({{site.baseurl }}/user-authorization)
 * [Release criteria]({{ site.baseurl }}release-criteria) ([older version]({{ site.baseurl }}/release-criteria-old))
 * [Procedure for adding a campus to the CDL Dash server]({{ site.baseurl }}/procedure-to-add-campus)
 * [Test script]({{ site.baseurl }}/test-script)
