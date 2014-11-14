@@ -13,6 +13,7 @@ permalink: /XTF-Installation/
 <br><br>
 ````
 cd xtfWorkshop/tomcat/webapps
+
 git clone git://github.com/CDLUC3/dash-xtf.git
 ````
 
@@ -24,6 +25,7 @@ git clone git://github.com/CDLUC3/dash-xtf.git
 xtf/data
 xtf/index
 ````
+
 1. Run these commands at the repo home directory:
 
 ````
@@ -31,7 +33,6 @@ git update-index --assume-unchanged xtf/conf/textIndexer.conf
 git update-index --assume-unchanged xtf/style/crossQuery/queryParser/default/queryParser.xsl
 git update-index --assume-unchanged xtf/style/dynaXML/docReqParser.xsl
 ````
-
 
 
 ### Download Data directory
