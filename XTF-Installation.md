@@ -107,13 +107,13 @@ permalink: /XTF-Installation/
         ````
 
     1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/style/dynaXML/docReqParser.xsl
-        1. line 105
+        * line 105
       
         ````
         <xsl:variable name="file" select="concat('data/',$docId)"/>
         ````
 
-        1. line 171
+        * line 171
 
         ````
         <source path="{concat('data/',$docId)}"/>
