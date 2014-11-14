@@ -10,10 +10,11 @@ permalink: /XTF-Installation/
 1. Unzip files to your local server. Will create a directory at ````/xtfWorkshop````
 1. Delete XTF directory at ````/xtfWorkshop/tomcat/webapps/xtf````
 1. Clone Dash repository from Github:
-
+<br/>
 `
 cd xtfWorkshop/tomcat/webapps
 `
+<br/>
 `
 git clone git://github.com/CDLUC3/dash-xtf.git
 `
