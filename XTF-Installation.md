@@ -109,15 +109,15 @@ permalink: /XTF-Installation/
     1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/style/dynaXML/docReqParser.xsl
         * line 105
       
-        ````
-        <xsl:variable name="file" select="concat('data/',$docId)"/>
-        ````
+            ````
+            <xsl:variable name="file" select="concat('data/',$docId)"/>
+            ````
 
         * line 171
 
-        ````
-        <source path="{concat('data/',$docId)}"/>
-        ````
+            ````
+            <source path="{concat('data/',$docId)}"/>
+            ````
 
 1. Follow directions at http://xtf.cdlib.org/getting-started-tutorials/quick-start/:
   * set paths and environment variables with cmdPrompt.bat (PCs) or cmdPrompt.command (Macs)
