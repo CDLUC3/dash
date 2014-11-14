@@ -20,89 +20,89 @@ permalink: /XTF-Installation/
 
 1. Add these lines to xtfWorkshop/tomcat/webapps/dash-xtf/.git/info/exclude:
 
-   ```
-       xtf/data
-       xtf/index
-   ```
+```
+xtf/data
+xtf/index
+```
 1. Run these commands at the repo home directory:
 
-   ```
-       git update-index --assume-unchanged xtf/conf/textIndexer.conf
-       git update-index --assume-unchanged xtf/style/crossQuery/queryParser/default/queryParser.xsl
-       git update-index --assume-unchanged xtf/style/dynaXML/docReqParser.xsl
-   ```
+```
+git update-index --assume-unchanged xtf/conf/textIndexer.conf
+git update-index --assume-unchanged xtf/style/crossQuery/queryParser/default/queryParser.xsl
+git update-index --assume-unchanged xtf/style/dynaXML/docReqParser.xsl
+```
 
 
 
 ### Download Data directory
 1. : Unzip [dash-data.zip](https://github.com/CDLUC3/dash/raw/gh-pages/docs/dash-data.zip) and rename folder "dash-data" to "data" to 
 
-    ```
-        /xtfWorkshop/tomcat/webapps/dash/xtf/
-    ```
+```
+/xtfWorkshop/tomcat/webapps/dash/xtf/
+```
 
 ### Files to change
 **For PCs:** 
 
 1. /xtfWorkshop/setVars.bat (line 20)
 
-    ```
-        set XTF_HOME=%CATALINA_HOME%\webapps\dash-xtf\xtf
-    ```
+```
+set XTF_HOME=%CATALINA_HOME%\webapps\dash-xtf\xtf
+```
 
 **For Macs:**  
 
 1. /xtfWorkshop/textIndexer (line 5)
 
-    ```
-        export XTF_HOME="$XTFWS/tomcat/webapps/dash-xtf/xtf"
-    ```
+```
+export XTF_HOME="$XTFWS/tomcat/webapps/dash-xtf/xtf"
+```
 
 1. /xtfWorkshop/cmdPrompt.command (line 16)
 
-    ```
-        echo "export XTF_HOME=\"$XTFWS/tomcat/webapps/dash-xtf/xtf\"" >> /tmp/xtfworkshop_init
-    ```
+```
+echo "export XTF_HOME=\"$XTFWS/tomcat/webapps/dash-xtf/xtf\"" >> /tmp/xtfworkshop_init
+```
 1. /xtfWorkshop/tomcat.command (line 11)
 
-    ```
-        export XTF_HOME="$XTFWS/tomcat/webapps/dash-xtf/xtf"
-    ```
+```
+export XTF_HOME="$XTFWS/tomcat/webapps/dash-xtf/xtf"
+```
 
 **For both PCs and Macs**
 
 1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/conf/textIndexer.conf (lines 12 and 13)
         
-    ```
-        <src path="./data" scan="all"/>
-        <db path="./index"/>
-    ```
+```
+<src path="./data" scan="all"/>
+<db path="./index"/>
+```
 
 
 1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/style/crossQuery/queryParser/default/queryParser.xsl (line 80)
       
-    ```
-        <query indexPath="index" termLimit="1000" workLimit="1000000" style="{$stylesheet}" startDoc="{$startDoc}" maxDocs="{$docsPerPage}">
-    ```
+```
+<query indexPath="index" termLimit="1000" workLimit="1000000" style="{$stylesheet}" startDoc="{$startDoc}" maxDocs="{$docsPerPage}">
+```
 
 1. /xtfWorkshop/tomcat/conf/server.xml (line 128)
 
-    ```
-        <Host name="localhost"  appBase="webapps/dash-xtf"
-    ```
+```
+<Host name="localhost"  appBase="webapps/dash-xtf"
+```
 
 1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/style/dynaXML/docReqParser.xsl
   1. line 105
       
-    ```
-        <xsl:variable name="file" select="concat('data/',$docId)"/>
-    ```
+```
+<xsl:variable name="file" select="concat('data/',$docId)"/>
+```
 
   1. line 171
 
-    ```
-        <source path="{concat('data/',$docId)}"/>
-    ```
+```
+<source path="{concat('data/',$docId)}"/>
+```
 
 1. Follow directions at http://xtf.cdlib.org/getting-started-tutorials/quick-start/:
   * set paths and environment variables with cmdPrompt.bat (PCs) or cmdPrompt.command (Macs)
