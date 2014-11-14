@@ -11,98 +11,113 @@ permalink: /XTF-Installation/
 1. Delete XTF directory at ````/xtfWorkshop/tomcat/webapps/xtf````
 1. Clone Dash repository from Github:
 
-````
-cd xtfWorkshop/tomcat/webapps
-git clone git://github.com/CDLUC3/dash-xtf.git
-````
+    ````
+    cd xtfWorkshop/tomcat/webapps
+    ````
+    
+    ````
+    git clone git://github.com/CDLUC3/dash-xtf.git
+    ````
 
-### Add exclusions to git index
+1. Add exclusions to git index
+    1. Add these lines to xtfWorkshop/tomcat/webapps/dash-xtf/.git/info/exclude:
 
-1. Add these lines to xtfWorkshop/tomcat/webapps/dash-xtf/.git/info/exclude:
+        ````
+        xtf/data
+        ````
+	
+        ````
+	    xtf/index
+        ````
 
-````
-xtf/data
-xtf/index
-````
+    1. Run these commands at the repo home directory:
 
-1. Run these commands at the repo home directory:
+        ````
+        git update-index --assume-unchanged xtf/conf/textIndexer.conf
+        ````
 
-````
-git update-index --assume-unchanged xtf/conf/textIndexer.conf
-git update-index --assume-unchanged xtf/style/crossQuery/queryParser/default/queryParser.xsl
-git update-index --assume-unchanged xtf/style/dynaXML/docReqParser.xsl
-````
+        ````
+        git update-index --assume-unchanged <br>
+        ````
 
+        ````
+        xtf/style/crossQuery/queryParser/default/queryParser.xsl
+        ````
 
-### Download Data directory
-1. : Unzip [dash-data.zip](https://github.com/CDLUC3/dash/raw/gh-pages/docs/dash-data.zip) and rename folder "dash-data" to "data" to 
+        ````
+        git update-index --assume-unchanged xtf/style/dynaXML/docReqParser.xsl
+        ````
 
-````
-/xtfWorkshop/tomcat/webapps/dash/xtf/
-````
+1. Download data directory
+    1. Unzip [dash-data.zip](https://github.com/CDLUC3/dash/raw/gh-pages/docs/dash-data.zip) and rename folder "dash-data" to "data" to 
 
-### Files to change
-**For PCs:** 
+        ````
+        /xtfWorkshop/tomcat/webapps/dash/xtf/
+        ````
+    
+1. Change files
 
-1. /xtfWorkshop/setVars.bat (line 20)
+    **For PCs:** 
 
-````
-set XTF_HOME=%CATALINA_HOME%\webapps\dash-xtf\xtf
-````
+    1. /xtfWorkshop/setVars.bat (line 20)
 
-**For Macs:**  
+        ````
+        set XTF_HOME=%CATALINA_HOME%\webapps\dash-xtf\xtf
+        ````
 
-1. /xtfWorkshop/textIndexer (line 5)
+    **For Macs:**  
 
-```
-export XTF_HOME="$XTFWS/tomcat/webapps/dash-xtf/xtf"
-```
+    1. Line 5: /xtfWorkshop/textIndexer 
 
-1. /xtfWorkshop/cmdPrompt.command (line 16)
+        ```
+        export XTF_HOME="$XTFWS/tomcat/webapps/dash-xtf/xtf"
+        ```
 
-```
-echo "export XTF_HOME=\"$XTFWS/tomcat/webapps/dash-xtf/xtf\"" >> /tmp/xtfworkshop_init
-```
-1. /xtfWorkshop/tomcat.command (line 11)
+    1. Line 16: /xtfWorkshop/cmdPrompt.command 
 
-```
-export XTF_HOME="$XTFWS/tomcat/webapps/dash-xtf/xtf"
-```
+        ```
+        echo "export XTF_HOME=\"$XTFWS/tomcat/webapps/dash-xtf/xtf\"" >> /tmp/xtfworkshop_init
+        ```
 
-**For both PCs and Macs**
+    1. Line 11: /xtfWorkshop/tomcat.command 
 
-1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/conf/textIndexer.conf (lines 12 and 13)
+        ```
+        export XTF_HOME="$XTFWS/tomcat/webapps/dash-xtf/xtf"
+        ```
+
+    **For both PCs and Macs**
+
+    1. Lines 12 & 13: /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/conf/textIndexer.conf
         
-```
-<src path="./data" scan="all"/>
-<db path="./index"/>
-```
+        ````
+        <src path="./data" scan="all"/>
+        <db path="./index"/>
+        ````
 
-
-1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/style/crossQuery/queryParser/default/queryParser.xsl (line 80)
+    1. Line 80: /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/style/crossQuery/queryParser/default/queryParser.xsl
       
-```
-<query indexPath="index" termLimit="1000" workLimit="1000000" style="{$stylesheet}" startDoc="{$startDoc}" maxDocs="{$docsPerPage}">
-```
+        ````
+        <query indexPath="index" termLimit="1000" workLimit="1000000" style="{$stylesheet}" startDoc="{$startDoc}" maxDocs="{$docsPerPage}">
+        ````
 
-1. /xtfWorkshop/tomcat/conf/server.xml (line 128)
+    1. Line 128: /xtfWorkshop/tomcat/conf/server.xml 
 
-```
-<Host name="localhost"  appBase="webapps/dash-xtf"
-```
+        ````
+        <Host name="localhost"  appBase="webapps/dash-xtf"
+        ````
 
-1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/style/dynaXML/docReqParser.xsl
-  1. line 105
+    1. /xtfWorkshop/tomcat/webapps/dash-xtf/xtf/style/dynaXML/docReqParser.xsl
+        1. line 105
       
-```
-<xsl:variable name="file" select="concat('data/',$docId)"/>
-```
+        ````
+        <xsl:variable name="file" select="concat('data/',$docId)"/>
+        ````
 
-  1. line 171
+        1. line 171
 
-```
-<source path="{concat('data/',$docId)}"/>
-```
+        ````
+        <source path="{concat('data/',$docId)}"/>
+        ````
 
 1. Follow directions at http://xtf.cdlib.org/getting-started-tutorials/quick-start/:
   * set paths and environment variables with cmdPrompt.bat (PCs) or cmdPrompt.command (Macs)
