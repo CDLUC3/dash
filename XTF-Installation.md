@@ -10,48 +10,45 @@ permalink: /XTF-Installation/
 1. Unzip files to your local server. Will create a directory at ````/xtfWorkshop````
 1. Delete XTF directory at ````/xtfWorkshop/tomcat/webapps/xtf````
 1. Clone Dash repository from Github:
-<br/>
-`
+<br><br>
+````
 cd xtfWorkshop/tomcat/webapps
-`
-<br/>
-`
 git clone git://github.com/CDLUC3/dash-xtf.git
-`
+````
 
 ### Add exclusions to git index
 
 1. Add these lines to xtfWorkshop/tomcat/webapps/dash-xtf/.git/info/exclude:
 
-```
+````
 xtf/data
 xtf/index
-```
+````
 1. Run these commands at the repo home directory:
 
-```
+````
 git update-index --assume-unchanged xtf/conf/textIndexer.conf
 git update-index --assume-unchanged xtf/style/crossQuery/queryParser/default/queryParser.xsl
 git update-index --assume-unchanged xtf/style/dynaXML/docReqParser.xsl
-```
+````
 
 
 
 ### Download Data directory
 1. : Unzip [dash-data.zip](https://github.com/CDLUC3/dash/raw/gh-pages/docs/dash-data.zip) and rename folder "dash-data" to "data" to 
 
-```
+````
 /xtfWorkshop/tomcat/webapps/dash/xtf/
-```
+````
 
 ### Files to change
 **For PCs:** 
 
 1. /xtfWorkshop/setVars.bat (line 20)
 
-```
+````
 set XTF_HOME=%CATALINA_HOME%\webapps\dash-xtf\xtf
-```
+````
 
 **For Macs:**  
 
