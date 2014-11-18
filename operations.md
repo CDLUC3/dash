@@ -11,6 +11,7 @@ permalink: /operations/
 * [User authorization]({{site.baseurl }}/user-authorization)
 * [Release criteria]({{ site.baseurl }}release-criteria) ([older version]({{ site.baseurl }}/release-criteria-old))
 * [Procedure for adding a campus to the CDL Dash server]({{ site.baseurl }}/procedure-to-add-campus)
+* [Campus Status Table (restricted)](https://confluence.ucop.edu/display/DataShare/Campus+Status)
 * [Test script]({{ site.baseurl }}/test-script)
 
 ## Installing Dash
