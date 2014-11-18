@@ -37,11 +37,7 @@ permalink: /XTF-Installation/
         ````
 
         ````
-        git update-index --assume-unchanged <br>
-        ````
-
-        ````
-        xtf/style/crossQuery/queryParser/default/queryParser.xsl
+        git update-index --assume-unchanged xtf/style/crossQuery/queryParser/default/queryParser.xsl
         ````
 
         ````
@@ -91,6 +87,9 @@ permalink: /XTF-Installation/
         
         ````
         <src path="./data" scan="all"/>
+		````
+		
+		````
         <db path="./index"/>
         ````
 
