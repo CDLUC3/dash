@@ -12,6 +12,7 @@ permalink: /participation/
 * [Generic FAQ text]({{ site.baseurl }}/generic-faq)
 * [Generic About text]({{ site.baseurl }}/generic-about)
 * [Data licenses]({{ site.baseurl }}/licensing)
+* [Dash costs]({{ site.baseurl }}/costs)
 * [Future work: User authorization]({{ site.baseurl }}/user-authorization)
 
 
