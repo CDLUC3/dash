@@ -4,7 +4,7 @@ title: Costs
 permalink: /costs/
 ---
 
-## We do not have plans to charge Dash users. However, we will be billing campuses for storage used by their Dash instances. This cost may be passed on to campus users; contact your campus library for more information. [DataONE Dash](http://oneshare.cdlib.org) will remain free for users.
+**Note:** We do not have plans to charge Dash users. However, we will be billing campuses for storage used by their Dash instances. This cost may be passed on to campus users; contact your campus library for more information. [DataONE Dash](http://oneshare.cdlib.org) will remain free for users.
 
 
 _Updated 21 Nov 2014_
