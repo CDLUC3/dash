@@ -4,14 +4,14 @@ title: Costs
 permalink: /costs/
 ---
 
-**Note:** We do not have plans to charge Dash users. However, we will be billing campuses for storage used by their Dash instances. This cost may be passed on to campus users; contact your campus library for more information. [DataONE Dash](http://oneshare.cdlib.org) will remain free for users.
+**Note:** We do not have plans to charge individual Dash users. However, we will be billing campuses for storage used by their Dash instances. This cost may be passed on to campus users; contact your campus library for more information. [DataONE Dash](http://oneshare.cdlib.org) will remain free for users.
 
 
 _Updated 21 Nov 2014_
 
 ## Plan for Covering Dash Costs
 
-We continue to work with the UCOP administration to get final approval for our Merritt recharge proposal. Here are the components of our proposal, which has been modified based on feedback from our campus partners.  For UC clients the only charges are for storage; there is no separate service fee. The proposal is based on a **$0.65/GB per year** price point, which reflects our actual costs to provision replicated storage at SDSC and UCLA.  We also plan to offer a paid-up option of $4.82/GB for 10 years. See our [calculations spreadsheet](https://docs.google.com/spreadsheets/d/1vqaiyDUfU3LdFmhKD6gaa40erLKfWDBh-T5JFse8Lt4/edit?usp=sharing) for projected annual costs per campus.
+We continue to work with the UCOP administration to get final approval for our Merritt recharge proposal. Here are the components of our proposal, which has been modified based on feedback from our campus partners.  For UC clients the only charges are for storage; there is no separate service fee. The proposal is based on a **$0.65/GB per year** price point, which reflects our actual costs to provision replicated storage at SDSC and UCLA.  We also plan to offer a paid-up option of $4.82/GB for 10 years. 
 
 ## Details
 
