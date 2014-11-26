@@ -11,7 +11,7 @@ _Updated 21 Nov 2014_
 
 ## Plan for Covering Dash Costs
 
-We continue to work with the UCOP administration to get final approval for our Merritt recharge proposal. Here are the components of our proposal, which has been modified based on feedback from our campus partners.  For UC clients the only charges are for storage; there is no separate service fee. The proposal is based on a **$0.65/GB per year** price point, which reflects our actual costs to provision replicated storage at SDSC and UCLA.  We also plan to offer a paid-up option of $4.82/GB for 10 years. 
+We continue to work with the UCOP administration to get final approval for our Merritt recharge proposal. Here are the components of our proposal, which has been modified based on feedback from our campus partners.  For UC clients the only charges are for storage; there is no separate service fee. The proposal is based on a **$0.65/GB per year** price point, which reflects our actual costs to provision replicated storage at SDSC and UCLA.  We also plan to offer a paid-up option of $4.82/GB for 10 years. Use our [costs calculator](https://docs.google.com/spreadsheets/d/15PyhRDnwOt1hEfZW6EFyFlw4dfoKo5drHgxJ7OBktFg/edit?pli=1#gid=0) to determine anticipated dash costs.
 
 ## Details
 
