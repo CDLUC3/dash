@@ -13,7 +13,7 @@ permalink: /operations/
 * [Procedure for adding a campus to the CDL Dash server]({{ site.baseurl }}/procedure-to-add-campus)
 * [Campus Status Table (restricted)](https://confluence.ucop.edu/display/DataShare/Campus+Status)
 * [Test script]({{ site.baseurl }}/test-script)
-* [UCI GeoSpatial test script]({{ site.baseurl }}/blob/gh-pages/docs/UCI%20dash-xtf%20Test%20Script.pdf?raw=true)
+* [UCI GeoSpatial test script](https://github.com/CDLUC3/dash/blob/gh-pages/docs/UCI%20dash-xtf%20Test%20Script.pdf?raw=true)
 
 ## Installing Dash
 
