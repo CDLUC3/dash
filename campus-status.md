@@ -5,16 +5,16 @@ permalink: /campus-status/
 ---
 
 | **Campus** | **Status** |
-| Berkeley| [[dash.berkeley.edu|http://dash.berkeley.edu]] |
+| Berkeley| [dash.berkeley.edu](https://dash.berkeley.edu) |
 | Davis | In discussion | 
-| Irvine | [[dash.uci.edu|http://dash.uci.edu]] | 
-| UCLA | [[dash.ucla.edu|http://dash.ucla.edu]] |  
-| Merced | In progress | 
+| Irvine | [dash.uci.edu](https://dash.uci.edu) | 
+| UCLA | In discussion |  
+| Merced | [dash.ucmerced.edu](https://dash.ucmerced.edu) | 
 | Riverside | To be started |
 | San Diego | Not adopted | 
-| San Francisco | [[datashare.ucsf.edu|http://datashare.ucsf.edu]] |
+| San Francisco | [datashare.ucsf.edu](https://datashare.ucsf.edu) |
 | Santa Barbara | Not adopted |
-| Santa Cruz | To be started |
+| Santa Cruz | [dash.library.ucsc.edu](https://dash.library.ucsc.edu) |
 
 
 
