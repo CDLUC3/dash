@@ -8,13 +8,14 @@ permalink: /user-guide/
 There are multiple instances of the Dash tool (with different URLs) that all have similar functions, look, and feel.
 _[Read more on why](https://github.com/CDLUC3/dash/issues/35)_. 
 
-**Researchers at UC Merced, UCLA, UC Irvine, UC Berkeley, or UCOP** can use their campus-specific Dash instance:
+**Researchers at UC Berkeley, Irvine, Merced, Santa Cruz, San Francisco or UCOP** can use their campus-specific Dash instance:
 
 * [UC Berkeley Dash](https://dash.berkeley.edu): dash.berkeley.edu
 * [UC Irvine Dash](https://dash.lib.uci.edu): dash.lib.uci.edu
-* [UCLA Dash](https://dash.ucla.edu): dash.ucla.edu
 * [UC Merced Dash](https://dash.ucmerced.edu): dash.ucmerced.edu
 * [UCOP Dash](https://dash.ucop.edu): dash.ucop.edu
+* [UCSC Dash](https://dash.library.ucsc.edu): dash.library.ucsc.edu
+* [UCSF Datashare](https://datashare.ucsf.edu): datashare.ucsf.edu
 
 **Other Researchers** (not a University of California researcher or your campus is not a partner) can use [DataONE Dash](http://oneshare.cdlib.org) (oneshare.cdlib.org). This instance is available to anyone, free of charge. Use your Google credentials to deposit data.
 
@@ -28,9 +29,10 @@ The Dash home page is institution-specific. Navigate to the appropriate home pag
 
 * [UC Berkeley Dash](https://dash.berkeley.edu): dash.berkeley.edu
 * [UC Irvine Dash](https://dash.lib.uci.edu): dash.lib.uci.edu
-* [UCLA Dash](https://dash.ucla.edu): dash.ucla.edu
 * [UC Merced Dash](https://dash.ucmerced.edu): dash.ucmerced.edu
 * [UCOP Dash](https://dash.ucop.edu): dash.ucop.edu
+* [UCSC Dash](https://dash.library.ucsc.edu): dash.library.ucsc.edu
+* [UCSF Datashare](http://datashare.ucsf.edu): datashare.ucsf.edu
 * [DataONE Dash](http://oneshare.cdlib.org): oneshare.cdlib.org
 
 ### Contents:
