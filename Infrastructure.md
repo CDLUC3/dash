@@ -46,11 +46,11 @@ AssertionConsumerService elements: Each campus must have AssertionConsumerServic
 
 Rather than define a specific set of attributes for the Dash application and doing a one-by-one integration with each campus IDP, the Dash application is registered with UCTrust (http://www.ucop.edu/information-technology-services//initiatives/uctrust-the-university-of-california-identity.html) ﻿(work in progress as of 4/2014). As part of the UCTrust initiative, every campus IDP will automatically recognize the Dash SP and release a standard set of attributes. Dash is also registered with InCommon as part of the Research and Scholarship category (https://spaces.internet2.edu/display/InCFederation/Research+and+Scholarship+Category). This is similar to UCTrust, in that it means that any Identity Provider that recognizes the Research and Scholarship category will automatically release a standard set of requested attributes to the Dash SP.
 
-Dash uses a local discovery service that is part of the Rails Dash Ingest application. Please see the documentation for Dash Ingest (https://github.com/CDLUC3/dash-ingest) for more information.
+Dash uses a local discovery service that is part of the Rails stash-engine gem. Please see the documentation for Dash (https://github.com/CDLUC3/stash_engine) for more information.
 
 ## Staging Environment
 
-The staging environment is essentially identical to development, but it is implemented on uc3-dash-stg.cdlib.org, and the various URLs, endpoints, and DNS names use 'stg' instead of dev, e.g. dash-stg.berkeley.edu or stg.dash.ucla.edu.
+The staging environment is essentially identical to development, but it is implemented on uc3-dash2-stg.cdlib.org, and the various URLs, endpoints, and DNS names use 'stg' instead of dev, e.g. dash2-stg.berkeley.edu.
 
 ## Production Environment
-The production environment is essentially identical to development and staging, but it is implemented on cdl-dash-p01.ucop.edu, and the various URLs, endpoints, and DNS names have no qualifier, e.g. dash.berkeley.edu or dash.ucla.edu.
+The production environment is essentially identical to development and staging, but it is implemented on uc3-dash2-prd.cdlib.org, and the various URLs, endpoints, and DNS names have no qualifier, e.g. dash.berkeley.edu or dash.ucla.edu.

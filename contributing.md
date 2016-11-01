@@ -59,4 +59,3 @@ These changes will be deployed onto the CDL dash-dev.cdlib.org virtual machine.
 
 ### Setting up a test development server to test the entire Dash system
 * [Apache configuration]({{ site.baseurl }}/infrastructure)
-* [XTF Installation]({{ site.baseurl }}/XTF-Installation) 
