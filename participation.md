@@ -9,8 +9,8 @@ permalink: /participation/
 ### Information & Documents for Partners
 
 * [Implementation tasks]({{ site.baseurl }}/campus-tasks)
-* [Generic FAQ text]({{ site.baseurl }}/generic-faq)
-* [Generic About text]({{ site.baseurl }}/generic-about)
+<!-- * [Generic FAQ text]({{ site.baseurl }}/generic-faq) -->
+<!--* [Generic About text]({{ site.baseurl }}/generic-about) -->
 * [Data licenses]({{ site.baseurl }}/licensing)
 <!-- >* [Dash costs]({{ site.baseurl }}/costs) -->
 <!-- >* [Future work: User authorization]({{ site.baseurl }}/user-authorization) -->

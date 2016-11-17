@@ -8,7 +8,7 @@ _Note: you will need a GitHub account to contribute._
 
 ## Overview of Dash
 
-Dash is a new, easy-to-use solution for the effective curation of and access to campus research data. It is designed to be a simple self-service curation tool for researchers to archive and share their datasets.
+Dash is an easy-to-use data preservation and publication service for the effective curation of and access to campus research data. It is designed to be a simple self-service curation tool for researchers to archive and share their datasets.
 
 **Tasks Dash helps researchers perform:**
 
@@ -21,27 +21,28 @@ Dash is a new, easy-to-use solution for the effective curation of and access to 
 
 ### Code lines
 
-There are three Dash repositories which make up the DASH web application
+There are multiple Dash repositories which make up the Stash framework providing the underlying code for the Dash service instance.
 
-* **[dash-ingest](https://github.com/CDLUC3/dash-ingest)**: houses code for the data ingest portion of Dash. Allows the user to create, describe and upload datasets, then submit them for deposit into Merritt.  Written in Ruby/Rails.
-* **[dash-XTF](https://github.com/CDLUC3/dash-xtf)**: houses code for the discovery portion of Dash.  Allows the user to search and download datasets.  Written in [XTF](http://xtf.cdlib.org/).
-* **[dash-harvester](https://github.com/CDLUC3/dash-harvester)**: A python script which parses an atom feed from Merritt for harvesting.
+* **[dashv2](https://github.com/CDLUC3/dashv2)**: a Stash based Rails application
+* **[stash_engine](https://github.com/CDLUC3/stash_engine)**: a Rails engine which houses code for the Store portion of Dash.  
+* **[stash_datacite](https://github.com/CDLUC3/stash_datacite)**:  a Rails engine which houses the metadata schema supporting Datacite
+* **[stash-sword](https://github.com/CDLUC3/stash-sword)**:: A minimal SWORD 2.0 connector providing those features needed for Stash.
+* **[dash2-harvester](https://github.com/CDLUC3/dash2-harvester)**: It consists of a Ruby bundle and a wrapper script, bin/harvest.sh.
 
 ### Architecture
-![Architecture](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/Dash-architecture.jpg)
+![Architecture](https://raw.githubusercontent.com/CDLUC3/dash/gh-pages/docs/stash_architecture.png)
 
 
-## To contribute to the dash-ingest repository
+## To contribute to the Stash frame and repositories, please contact us at uc3@ucop.edu
 
 The Dash project will use the **Fork & Pull** model. This lets anyone fork an existing repository and push changes to their personal fork, without requiring access be granted to the source repository. The changes must then be pulled into the source repository by the project maintainer.
 
 **Step 1. Fork the repository.** 
 
-[Follow these steps from GitHub to fork the dash-ingest repository](https://help.github.com/articles/fork-a-repo)
+[Follow these steps from GitHub to fork a repository](https://help.github.com/articles/fork-a-repo)
 
 **Step 2. Set up your Rails development environment.**
 
-Information on setting up your Rails development environment locally can be found at [Operations: Rails development setup]({{ site.baseurl }}/rails-setup)
 
 **Step 3. Make changes, additions, etc. to the code.**
 
