@@ -4,10 +4,6 @@ title: Help
 permalink: /help/
 ---
 
-### User Guides
-
-* [General guidance: Finding & uploading data]({{ site.baseurl }}/user-guide)
-* [Downloading data]({{ site.baseurl }}/download-guide)
 
 ### General Information
 
