@@ -7,9 +7,9 @@ permalink: /campus-tasks/
 ## Certificates
 1. Decide on your preferred URL for Dash. dash.institution.edu would be consistent with other Dash instances, but the final decision is yours.
 2. Request CNAMES for development, staging, and production URLs. If you use dash.institution.edu for production, then things should look something like this:
-  * dash-dev.institution.edu should resolve to uc3-datashare-dev.cdlib.org, 192.35.209.63
-  * dash-stg.institution.edu should resolve to uc3-datashare-stg.cdlib.org, 192.35.209.64
-  * dash.institution.edu should resolve to cdl-datashare-p01.ucop.edu, 128.48.120.139
+  * dash-dev.institution.edu should resolve to uc3-datashare-dev.cdlib.org
+  * dash-stg.institution.edu should resolve to uc3-datashare-stg.cdlib.org
+  * dash.institution.edu should resolve to cdl-datashare-p01.ucop.edu
 3. We normally use self-signed certificates in development and staging. This eliminates the hassle of managing 'real' certificates, but will result in users in development and staging getting a security alert from their browser. In production we require a proper CA-signed certificate. Please generate a certificate request and private key, and obtain a certificate for dash.institution.edu from your preferred CA. If you would like to avoid the security alerts in development and staging, add dash-dev.institution.edu and dash-stg.institution.edu to your certificate as 'Subject Alternate Names.'
 
 ## Shibboleth
